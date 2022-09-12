@@ -1,0 +1,58 @@
+@font-face {
+  font-family: suprtall;
+  src: url('./fonts/SUPR-Tall.otf');
+}
+
+@font-face {
+  font-family: suprtall;
+  src: url('./fonts/SUPR-Tall-Bold.otf');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: suprtall;
+  src: url('./fonts/SUPR-Tall-Italic.otf');
+  font-style: italic;
+}
+
+@font-face {
+  font-family: suprtall;
+  src: url('./fonts/SUPR-Tall-Bold-Italic.otf');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: suprtall2;
+  src: url('./fonts/SUPR-Tall2.otf');
+}
+
+@font-face {
+  font-family: suprtall2;
+  src: url('./fonts/SUPR-Tall-Bold2.otf');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: suprtall2;
+  src: url('./fonts/SUPR-Tall-Italic2.otf');
+  font-style: italic;
+}
+
+@font-face {
+  font-family: suprtall2;
+  src: url('./fonts/SUPR-Tall-Bold-Italic2.otf');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: usiversltsd;
+  src: url('./fonts/UniversLTStd-LightCn.otf');
+}
+
+@font-face {
+  font-family: usiversltsd;
+  src: url('./fonts/UniversLTStd-LightUltraCn.otf');
+  font-weight: lighter;
+}
