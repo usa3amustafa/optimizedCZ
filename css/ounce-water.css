@@ -1,0 +1,14 @@
+.ow {
+  background: url('../img/OW/OW_Main_Container.webp');
+
+  background-size: cover;
+  background-position: center center;
+}
+
+.truckwrap-images {
+  align-items: center;
+}
+
+.ow-labels {
+  padding: 0;
+}

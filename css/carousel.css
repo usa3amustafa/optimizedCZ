@@ -1,0 +1,47 @@
+.carousel {
+  position: relative;
+}
+
+.carousel-control {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.carousel-left {
+  left: 0;
+}
+
+.carousel-right {
+  right: 0;
+}
+
+.carousel-control {
+}
+
+.carousel-left {
+  left: 0%;
+}
+
+.carousel-right {
+  right: 0%;
+}
+
+.carousel-el {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 800px) {
+  .carousel-control > img {
+    width: 20px;
+  }
+}
+
+@media (max-width: 400px) {
+  .carousel-control > img {
+    width: 10px;
+  }
+}

@@ -1,24 +1,8 @@
-// slideshow
-$('header').vegas({
-  delay: 7000,
-  timer: false,
-  loop: true,
-  shuffle: false,
-  firstTransition: 'fade',
-  firstTransitionDuration: 1000,
-  transition: 'fade',
-  transitionDuration: 2000,
-  slides: [
-    { src: './img/header/NYC_Image1.webp' },
-    { src: './img/header/ATL_Image2.webp' },
-    { src: './img/header/LA_Image3.webp' },
-  ],
-})
-
+// preloader
 const preLoader = document.querySelector('#preloader')
 const nav = document.querySelector('nav')
 const mainLogo = document.querySelector('.main-logo')
-const tagLine = document.querySelector('.tagline')
+const tagLine = document.getElementById('tagline')
 const scrollDownImg = document.querySelector('.scroll-down-img')
 
 // type writing
@@ -38,14 +22,30 @@ window.addEventListener('load', function () {
   typewriter
     .pauseFor(1300)
     .typeString('creative director')
-    .pauseFor(1000)
-    .deleteChars(8)
+    .pauseFor(800)
+    .deleteAll()
     .pauseFor(500)
-    .typeString('designer')
-    .pauseFor(1000)
-    .deleteChars(8)
+    .typeString('Brand Developer')
+    .pauseFor(800)
+    .deleteAll()
     .pauseFor(500)
-    .typeString('illustrator')
-    .pauseFor(1000)
+    .typeString('Illustrator')
+    .pauseFor(800)
+    .deleteAll()
+    .pauseFor(500)
+    .typeString('Designer')
+    .pauseFor(800)
+    .deleteAll()
+    .pauseFor(500)
+    .typeString('Father')
+    .pauseFor(800)
+    .deleteAll()
+    .pauseFor(500)
+    .typeString('Mentor')
+    .pauseFor(800)
+    .deleteAll()
+    .pauseFor(500)
+    .typeString('Entrepreneur')
+    .pauseFor(800)
     .start()
 })
