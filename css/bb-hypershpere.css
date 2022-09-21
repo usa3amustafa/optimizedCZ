@@ -5,6 +5,11 @@
   background-position: center center;
 }
 
+.bb-packaging-img {
+  max-width: 1400px;
+  width: 100%;
+}
+
 .background-development-section {
   background: url('../../img/BB/BB_Hypershere_Pattern_Wall.webp');
 
