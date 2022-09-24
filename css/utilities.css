@@ -301,12 +301,6 @@ footer {
   display: none;
 }
 
-.show-preloader-home {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .preloader-text {
   font-family: var(--suprtall);
   font-size: 4rem;
@@ -407,6 +401,16 @@ footer {
     position: absolute;
     top: 5%;
     right: 5%;
+  }
+
+  .preloader-video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .preloader-video > video {
+    width: 70%;
   }
 }
 
