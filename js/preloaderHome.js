@@ -1,5 +1,5 @@
 // preloader
-const preLoader = document.querySelector('#preloader')
+const preLoader = document.querySelector('#preloader-home')
 const nav = document.querySelector('nav')
 const mainLogo = document.querySelector('.main-logo')
 const tagLine = document.getElementById('tagline')
@@ -12,7 +12,9 @@ const typewriter = new Typewriter(tagLine, {
 })
 
 const preloaderFunc = function () {
-  preLoader.style.display = 'block'
+  preLoader.style.display = 'flex'
+  preLoader.style.justifyContent = 'center'
+  preLoader.style.alignItems = 'center'
 
   const preloaderInterval = setInterval(() => {
     preLoader.style.display = 'none'

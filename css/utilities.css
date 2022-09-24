@@ -285,8 +285,26 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+#preloader-home {
+  background: #000;
+  height: 100vh;
+  width: 100vw;
+  max-width: 100%;
+
+  z-index: 20;
+  position: fixed;
+  top: 0;
+  left: 0;
 
   display: none;
+}
+
+.show-preloader-home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .preloader-text {
