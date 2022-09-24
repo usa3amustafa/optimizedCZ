@@ -29,6 +29,9 @@ header {
   margin-top: 5rem;
   max-width: 30rem;
   width: 80%;
+  opacity: 0;
+  transform: translateY(2px);
+  transition: opacity 0.75s ease-in-out, transform 0.75s ease-in-out;
 }
 
 .slideup {
@@ -50,6 +53,7 @@ header {
 
 .fadein-animation {
   animation: fade-in-animation 3s ease-in-out forwards;
+  animation-delay: 1s;
 }
 
 @keyframes fade-in-animation {

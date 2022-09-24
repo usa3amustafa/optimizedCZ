@@ -84,7 +84,7 @@ nav {
   opacity: 0;
 
   transition: opacity 1s ease-in-out;
-  transition-delay: 0.2s;
+  transition-delay: 0.75s;
 }
 
 .slidedown {
