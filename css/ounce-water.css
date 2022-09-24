@@ -12,3 +12,12 @@
 .ow-labels {
   padding: 0;
 }
+
+@media (max-width: 800px) {
+  .ow {
+    background: url('../img/OW/OW_Container_Main.webp');
+
+    background-size: cover;
+    background-position: center center;
+  }
+}

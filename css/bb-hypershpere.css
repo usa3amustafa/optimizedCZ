@@ -31,3 +31,19 @@
 .bb-packaging-elements {
   padding-bottom: 3rem;
 }
+
+@media (max-width: 800px) {
+  .bb-hypersphere {
+    background: url('../img/BB/BB_Hyper_Container_Main.webp');
+
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .background-development-section {
+    background: url('../../img/BB/BB_Hyper_Container_BGs.webp');
+
+    background-size: cover;
+    background-position: center center;
+  }
+}

@@ -108,6 +108,14 @@ footer {
 }
 
 @media (max-width: 800px) {
+  .work-header-bg {
+    min-height: 65vh;
+  }
+
+  .work-header {
+    min-height: 65vh;
+  }
+
   .grid-three-col,
   .grid-four-col {
     grid-template-columns: 1fr;

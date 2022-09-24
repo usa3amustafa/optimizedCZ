@@ -329,6 +329,20 @@ footer {
 
 /* 800px */
 @media (max-width: 800px) {
+  .work-header-bg {
+    min-height: 65vh;
+
+    padding-top: 0;
+  }
+
+  .work-header {
+    position: relative;
+    min-height: 65vh;
+
+    width: 90%;
+    margin: 0 auto;
+  }
+
   .hamburger,
   .close-icon {
     display: block;
