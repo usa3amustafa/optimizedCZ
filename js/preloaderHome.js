@@ -12,6 +12,8 @@ const typewriter = new Typewriter(tagLine, {
 })
 
 const preloaderFunc = function () {
+  preLoader.style.display = 'block'
+
   const preloaderInterval = setInterval(() => {
     preLoader.style.display = 'none'
     nav.classList.add('slidedown')
@@ -56,7 +58,6 @@ window.addEventListener('load', function () {
     preloaderFunc()
     sessionStorage.setItem('dontload', true)
   } else {
-    preLoader.style.display = 'none'
     nav.classList.add('slidedown')
     mainLogo.classList.add('slideup')
     tagLine.classList.add('fadein-animation')
