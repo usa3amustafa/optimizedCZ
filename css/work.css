@@ -143,11 +143,6 @@
   .project-desc {
     font-size: 1.25rem;
   }
-
-  .project-text {
-    position: absolute;
-    z-index: 5;
-  }
 }
 
 @media (max-width: 450px) {
