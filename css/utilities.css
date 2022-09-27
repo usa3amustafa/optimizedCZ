@@ -306,6 +306,11 @@ footer {
   font-size: 4rem;
 }
 
+.preloader-video > video {
+  max-width: 37.5rem;
+  width: 100%;
+}
+
 /* 1024px */
 @media (max-width: 1024px) {
   .desc-text {
@@ -407,10 +412,6 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-
-  .preloader-video > video {
-    width: 70%;
   }
 }
 
