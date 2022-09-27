@@ -30,6 +30,7 @@ header {
   max-width: 30rem;
   width: 80%;
   opacity: 0;
+
   transform: translateY(2px);
   transition: opacity 0.75s ease-in-out, transform 0.75s ease-in-out;
 }
