@@ -306,6 +306,12 @@ footer {
   font-size: 4rem;
 }
 
+.preloader-video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .preloader-video > video {
   max-width: 37.5rem;
   width: 100%;
@@ -406,12 +412,6 @@ footer {
     position: absolute;
     top: 5%;
     right: 5%;
-  }
-
-  .preloader-video {
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }
 }
 
