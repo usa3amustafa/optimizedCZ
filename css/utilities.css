@@ -270,6 +270,36 @@ footer {
   max-width: 20px;
 }
 
+/* work project */
+
+#next-project-mobile {
+  display: none;
+}
+
+.work-pre-hover-img {
+  opacity: 1;
+  transition: opacity 0.1s ease-in;
+}
+
+.work-hover-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  opacity: 0;
+
+  transition: opacity 0.1s ease-in;
+}
+
+.work-project:hover .work-pre-hover-img {
+  opacity: 0;
+}
+
+.work-project:hover .work-hover-img {
+  opacity: 1;
+  cursor: pointer;
+}
+
 /* preloader */
 #preloader {
   background: #000;
@@ -364,6 +394,18 @@ footer {
     min-height: 65vh;
 
     width: 90%;
+    margin: 0 auto;
+  }
+
+  #next-project-desktop {
+    display: none;
+  }
+
+  #next-project-mobile {
+    display: block;
+
+    max-width: 500px;
+    width: 80%;
     margin: 0 auto;
   }
 

@@ -20,30 +20,6 @@
   position: relative;
 }
 
-.work-pre-hover-img {
-  opacity: 1;
-  transition: opacity 0.1s ease-in;
-}
-
-.work-hover-img {
-  position: absolute;
-  top: 0;
-  left: 0;
-
-  opacity: 0;
-
-  transition: opacity 0.1s ease-in;
-}
-
-.work-project:hover .work-pre-hover-img {
-  opacity: 0;
-}
-
-.work-project:hover .work-hover-img {
-  opacity: 1;
-  cursor: pointer;
-}
-
 .projects-mobile {
   display: none;
 }
@@ -133,6 +109,10 @@
   .eight::before {
     content: '08';
   }
+
+  #next-project-mobile .project-title {
+    font-size: 3rem;
+  }
 }
 
 @media (max-width: 500px) {
@@ -142,6 +122,10 @@
 
   .project-desc {
     font-size: 1.25rem;
+  }
+
+  #next-project-mobile .project-title {
+    font-size: 2rem;
   }
 }
 
@@ -179,5 +163,9 @@
   }
   .project-desc {
     font-size: 0.9rem;
+  }
+
+  #next-project-mobile .project-title {
+    font-size: 1.5rem;
   }
 }
