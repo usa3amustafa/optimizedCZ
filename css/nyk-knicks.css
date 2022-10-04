@@ -1,0 +1,24 @@
+.nyk-knicks {
+  background: url('../img/nyk/NYK_Main_Container.webp');
+
+  background-size: cover;
+  background-position: center center;
+}
+
+.live-branding-section {
+  height: 120vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)),
+    url('../img/nyk/NYK_Container2.webp');
+
+  background-size: cover;
+  background-position: center center;
+}
+
+@media (max-width: 800px) {
+  .nyk-knicks {
+    background: url('../img/nyk/NYK_Main_Container.webp');
+
+    background-size: cover;
+    background-position: center center;
+  }
+}
