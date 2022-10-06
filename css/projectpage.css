@@ -102,6 +102,18 @@ section {
   max-width: 200px;
 }
 
+.mw-1000 {
+  max-width: 1000px;
+}
+
+.mw-600 {
+  max-width: 600px;
+}
+
+.pb0 {
+  padding-bottom: 0;
+}
+
 .mt-5 {
   margin-top: -5px;
 }
@@ -128,6 +140,10 @@ section {
 
 .mb3 {
   margin-bottom: 3rem;
+}
+
+.h-120 {
+  height: 120vh;
 }
 
 footer {

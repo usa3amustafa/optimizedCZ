@@ -5,7 +5,7 @@
 .carousel {
   position: relative;
 
-  height: 75vh;
+  height: 95vh;
 
   overflow: hidden;
 }
@@ -14,8 +14,8 @@
   position: absolute;
   top: 0;
   left: 0;
-
-  height: 75vh;
+  width: 100%;
+  height: 95vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -24,7 +24,8 @@
 }
 
 .carousel-el > img {
-  width: 90%;
+  width: 100%;
+  max-width: 1000px;
 }
 
 .carousel-control {
@@ -40,9 +41,6 @@
 
 .carousel-right {
   right: 0;
-}
-
-.carousel-control {
 }
 
 .carousel-left {
@@ -61,11 +59,11 @@
 
 @media (max-width: 960px) {
   .carousel {
-    height: 50vh;
+    height: 75vh;
   }
 
   .carousel-el {
-    height: 50vh;
+    height: 75vh;
   }
 }
 
@@ -79,53 +77,13 @@
   }
 }
 
-@media (max-width: 720px) {
-  .carousel {
-    height: 45vh;
-  }
-
-  .carousel-el {
-    height: 45vh;
-  }
-}
-
-@media (max-width: 640px) {
-  .carousel {
-    height: 40vh;
-  }
-
-  .carousel-el {
-    height: 40vh;
-  }
-}
-
-@media (max-width: 600px) {
-  .carousel {
-    height: 35vh;
-  }
-
-  .carousel-el {
-    height: 35vh;
-  }
-}
-
-@media (max-width: 550px) {
-  .carousel {
-    height: 30vh;
-  }
-
-  .carousel-el {
-    height: 30vh;
-  }
-}
-
 @media (max-width: 450px) {
   .carousel {
-    height: 25vh;
+    height: 50vh;
   }
 
   .carousel-el {
-    height: 25vh;
+    height: 50vh;
   }
 
   .carousel-control > img {
@@ -135,10 +93,10 @@
 
 @media (max-width: 350px) {
   .carousel {
-    height: 20vh;
+    height: 40vh;
   }
 
   .carousel-el {
-    height: 20vh;
+    height: 40vh;
   }
 }

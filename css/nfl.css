@@ -1,0 +1,15 @@
+.nfl {
+  background: url('../img/nfl/NFL_Main_Container.webp');
+
+  background-size: cover;
+  background-position: center center;
+}
+
+@media (max-width: 800px) {
+  .nfl {
+    background: url('../img/nfl/NFL_Main_Container.webp');
+
+    background-size: cover;
+    background-position: center center;
+  }
+}

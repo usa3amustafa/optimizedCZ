@@ -346,6 +346,12 @@ footer {
   width: 80%;
 }
 
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /* 1024px */
 @media (max-width: 1024px) {
   .desc-text {
