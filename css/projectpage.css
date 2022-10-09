@@ -120,6 +120,10 @@ section {
   padding-bottom: 0;
 }
 
+.mt-4 {
+  margin-top: -4px;
+}
+
 .mt-5 {
   margin-top: -5px;
 }
@@ -323,4 +327,23 @@ footer {
   .seprater-title {
     font-size: 2.4rem;
   }
+}
+
+.img-heading {
+  position: relative;
+  padding: 0;
+  padding-top: 0;
+}
+
+.img-heading-container {
+  position: relative;
+}
+
+.img-heading-container > .project-title {
+  margin-top: 1.5rem;
+  position: absolute;
+
+  top: 0;
+  left: 0;
+  z-index: 10;
 }
