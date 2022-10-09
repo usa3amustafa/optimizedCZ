@@ -1,0 +1,22 @@
+.girls-scout {
+  background: url('../img/girls-scout/GirlScouts_Container.webp');
+
+  background-size: cover;
+  background-position: center center;
+}
+
+.girls-scout-product-packaging {
+  background: url('../img/girls-scout/GirlScouts_Container1.webp');
+
+  background-size: cover;
+  background-position: center center;
+}
+
+@media (max-width: 800px) {
+  .girls-scout {
+    background: url('../img/girls-scout/Girl_Scouts_Mobile_Container.webp');
+
+    background-size: cover;
+    background-position: center center;
+  }
+}
