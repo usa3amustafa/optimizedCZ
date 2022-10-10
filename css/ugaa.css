@@ -1,0 +1,15 @@
+.ugaa {
+  background: url('../img/ugaa/UGAA_Main_Container.webp');
+
+  background-size: cover;
+  background-position: center center;
+}
+
+@media (max-width: 800px) {
+  .ugaa {
+    background: url('../img/ugaa/UGAA_Main_Container.webp');
+
+    background-size: cover;
+    background-position: center center;
+  }
+}
