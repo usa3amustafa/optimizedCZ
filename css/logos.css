@@ -5,8 +5,50 @@
   background-position: center center;
 }
 
-.logos-carousel .carousel-el > img {
-  width: 85%;
+.logos-carousel {
+  padding: 2rem 0;
+}
+
+.logos-carousel .carousel-el > img,
+.carousel .project-title {
+  max-width: 1150px;
+  width: 97.5%;
+}
+
+.carousel {
+  height: 120vh;
+}
+
+.carousel-el {
+  height: 100%;
+}
+
+.carousel .project-title {
+  margin: 0 auto;
+  padding-bottom: 2rem;
+}
+
+@media (max-width: 1366px) {
+  .carousel {
+    height: 100vh;
+  }
+
+  .logos-carousel .carousel-el > img,
+  .carousel .project-title {
+    width: 85%;
+  }
+}
+
+@media (max-width: 960px) {
+  .carousel {
+    height: 85vh;
+  }
+}
+
+@media (max-width: 880px) {
+  .carousel {
+    height: 80vh;
+  }
 }
 
 @media (max-width: 800px) {
@@ -15,5 +57,55 @@
 
     background-size: cover;
     background-position: center center;
+  }
+
+  .carousel {
+    height: 75vh;
+  }
+}
+
+@media (max-width: 720px) {
+  .carousel {
+    height: 70vh;
+  }
+}
+
+@media (max-width: 670px) {
+  .carousel {
+    height: 60vh;
+  }
+}
+
+@media (max-width: 560px) {
+  .carousel {
+    height: 55vh;
+  }
+}
+
+@media (max-width: 480px) {
+  .carousel {
+    height: 50vh;
+  }
+
+  .project-title {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 440px) {
+  .carousel {
+    height: 45vh;
+  }
+}
+
+@media (max-width: 380px) {
+  .carousel {
+    height: 40vh;
+  }
+}
+
+@media (max-width: 320px) {
+  .carousel {
+    height: 37.5vh;
   }
 }
