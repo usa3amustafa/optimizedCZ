@@ -10,22 +10,59 @@
 }
 
 .logos-carousel .carousel-el > img,
-.carousel .project-title {
+.carousel-title {
   max-width: 1150px;
   width: 97.5%;
 }
 
 .carousel {
-  height: 120vh;
+  height: 700px;
+
+  position: relative;
 }
 
 .carousel-el {
   height: 100%;
 }
 
-.carousel .project-title {
+.carousel-title {
   margin: 0 auto;
-  padding-bottom: 2rem;
+}
+
+.logos-section-title {
+  padding-bottom: 4rem;
+}
+
+.logo-strip-4-col {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5rem;
+
+  flex-wrap: wrap;
+}
+
+.logo-strip-4-col:last-child {
+  margin-bottom: 2rem;
+}
+
+.logo-img {
+  display: flex;
+  align-items: center;
+
+  filter: grayscale(100%);
+  transition: filter 0.2s ease-in-out;
+}
+
+.logo-img > img {
+  display: inline-block;
+  width: 180px;
+  height: 75px;
+  object-fit: contain;
+}
+
+.colored {
+  filter: grayscale(0%);
 }
 
 @media (max-width: 1366px) {
@@ -34,7 +71,7 @@
   }
 
   .logos-carousel .carousel-el > img,
-  .carousel .project-title {
+  .carousel-title {
     width: 85%;
   }
 }
