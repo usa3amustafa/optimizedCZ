@@ -202,14 +202,14 @@ nav {
 
 /* work header */
 .work-header-bg {
-  min-height: 100vh;
+  min-height: 75vh;
 
   padding-top: 0;
 }
 
 .work-header {
   position: relative;
-  min-height: 100vh;
+  min-height: 75vh;
 
   width: 90%;
   margin: 0 auto;

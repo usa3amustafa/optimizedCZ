@@ -61,6 +61,14 @@
   object-fit: contain;
 }
 
+#large-img {
+  height: 90px;
+}
+
+#small-img {
+  height: 60px;
+}
+
 .colored {
   filter: grayscale(0%);
 }
@@ -105,11 +113,6 @@
   }
 
   .logo-img > img {
-    display: inline-block;
-    width: 80%;
-    max-width: 180px;
-    height: 75px;
-    object-fit: contain;
     margin-bottom: 0;
   }
 }
@@ -121,6 +124,18 @@
 
   .logo-img {
     width: 240px;
+  }
+
+  .logo-img > img {
+    height: 65px;
+  }
+
+  #large-img {
+    height: 80px;
+  }
+
+  #small-img {
+    height: 50px;
   }
 }
 
@@ -151,7 +166,15 @@
   }
 
   .logo-img > img {
-    height: 55px;
+    height: 50px;
+  }
+
+  #large-img {
+    height: 75px;
+  }
+
+  #small-img {
+    height: 45px;
   }
 }
 
@@ -166,6 +189,14 @@
 
   .logo-img > img {
     height: 45px;
+  }
+
+  #large-img {
+    height: 70px;
+  }
+
+  #small-img {
+    height: 30px;
   }
 }
 
