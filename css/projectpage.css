@@ -109,6 +109,7 @@ section {
 }
 
 .mw-800 {
+  width: 90%;
   max-width: 800px;
 }
 
