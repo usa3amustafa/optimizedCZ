@@ -1,0 +1,20 @@
+.power-rangers {
+  background: url('../img/powerRangers/PowerRangers_Container.png');
+
+  background-size: cover;
+  background-position: center center;
+}
+
+.center-img {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 800px) {
+  .power-rangers {
+    background: url('../img/powerRangers/PowerRangers_Container.png');
+
+    background-size: cover;
+    background-position: center center;
+  }
+}

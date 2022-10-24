@@ -111,6 +111,10 @@
     content: '08';
   }
 
+  .nine::before {
+    content: '09';
+  }
+
   #next-project-mobile .project-title {
     font-size: 3rem;
   }
