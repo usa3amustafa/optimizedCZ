@@ -20,8 +20,77 @@
   position: relative;
 }
 
+.next-section {
+  max-width: 600px;
+}
+
 .projects-mobile {
   display: none;
+}
+
+.project {
+  position: relative;
+}
+
+.project-link {
+  display: inline-block;
+  color: var(--white-clr);
+
+  transition: transform 0.15s ease-in-out, filter 0.15s ease-in-out;
+}
+
+.project-link:hover {
+  transform: translateY(-10px);
+  filter: brightness(120%);
+}
+
+.project-text {
+  position: absolute;
+  z-index: 5;
+  top: 15%;
+  left: 6%;
+}
+
+.project-title {
+  font-family: var(--suprtall);
+  font-size: 6rem;
+  text-transform: uppercase;
+
+  position: relative;
+}
+
+.project-desc {
+  font-family: var(--usiversltsdLight);
+  letter-spacing: 3px;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+.project-title::before {
+  font-family: var(--usiversltsdLight);
+  letter-spacing: 4px;
+  font-size: 1.25rem;
+
+  position: absolute;
+
+  top: -20px;
+  left: -18.5px;
+}
+
+.branding::before {
+  content: '01';
+}
+
+.illustration::before {
+  content: '02';
+}
+
+.apparel::before {
+  content: '03';
+}
+
+.shop::before {
+  content: '04';
 }
 
 /* work projects mobile */

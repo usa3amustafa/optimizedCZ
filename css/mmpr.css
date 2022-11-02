@@ -1,0 +1,22 @@
+.mmpr {
+  background: url('../img/mmpr/MMPR_Main_Container.png');
+
+  background-size: cover;
+  background-position: center center;
+}
+
+.mmpr-img-1 {
+  max-width: 1000px;
+}
+
+#mmpr-carousel-1-img {
+  max-width: 500px;
+}
+
+@media (max-width: 800px) {
+  .mmpr {
+    background: url('../img/mmpr/MMPR_Container_Mobile.png');
+    background-size: cover;
+    background-position: center center;
+  }
+}

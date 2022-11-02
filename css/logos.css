@@ -92,7 +92,7 @@
 
 @media (max-width: 800px) {
   .logos {
-    background: url('../img/logos/Logos_Main_Container.png');
+    background: url('../img/logos/Logos_Container_Mobile.png');
 
     background-size: cover;
     background-position: center center;

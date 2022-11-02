@@ -72,6 +72,10 @@ section {
   transform: translateY(0px);
 }
 
+.p3 {
+  padding: 3rem 0;
+}
+
 /* nav */
 
 nav {
