@@ -13,6 +13,41 @@
   display: none;
 }
 
+.mmpr-carousel-el {
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.mmpr-carousel-el-1 {
+  background-image: url('../img/mmpr/sliderA/MMPR_SliderA_1.png');
+}
+
+.mmpr-carousel-el-2 {
+  background-image: url('../img/mmpr/sliderA/MMPR_SliderA_2.png');
+}
+
+.mmpr-carousel-el-3 {
+  background-image: url('../img/mmpr/sliderA/MMPR_SliderA_3.png');
+}
+
+.mmpr-carousel-el-4 {
+  background-image: url('../img/mmpr/sliderA/MMPR_SliderA_4.png');
+}
+
+.mmpr-carousel-el-5 {
+  background-image: url('../img/mmpr/sliderA/MMPR_SliderA_5.png');
+}
+
+.mmpr-carousel-el-6 {
+  background-image: url('../img/mmpr/sliderA/MMPR_SliderA_6.png');
+}
+
+.mmpr-carousel-el-7 {
+  background-image: url('../img/mmpr/sliderA/MMPR_SliderA_7.png');
+}
+
 @media (max-width: 800px) {
   .mmpr {
     background: url('../img/mmpr/MMPR_Container_Mobile.png');

@@ -19,8 +19,68 @@
 .charector-desktop {
   display: block;
 }
+
 .charector-mobile {
   display: none;
+}
+
+.metatuners-carousel-el {
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.metatuners-carousel-el-1 {
+  background-image: url('../img/metatuners/META_TUNERS_Slider1.png');
+}
+
+.metatuners-carousel-el-2 {
+  background-image: url('../img/metatuners/META_TUNERS_Slider2.png');
+}
+
+.metatuners-carousel-el-3 {
+  background-image: url('../img/metatuners/META_TUNERS_Slider3.png');
+}
+
+.metatuners-carousel-el-4 {
+  background-image: url('../img/metatuners/META_TUNERS_Slider4.png');
+}
+
+.metatuners-carousel-el-5 {
+  background-image: url('../img/metatuners/META_TUNERS_Slider5.png');
+}
+
+.metatuners-carousel-el-6 {
+  background-image: url('../img/metatuners/META_TUNERS_Slider6.png');
+}
+
+.metatuners-carousel-el-7 {
+  background-image: url('../img/metatuners/META_TUNERS_Slider7.png');
+}
+
+.metatuners-carousel-el-8 {
+  background-image: url('../img/metatuners/META_TUNERS_Slider8.png');
+}
+
+.metatuners-carousel-el-9 {
+  background-image: url('../img/metatuners/META_TUNERS_Slider9.png');
+}
+
+.metatuners-carousel-el-10 {
+  background-image: url('../img/metatuners/META_TUNERS_Slider10.png');
+}
+
+.metatuners-carousel-el-2-1 {
+  background-image: url('../img/metatuners/META_TUNERS_Second_Slider1.png');
+}
+
+.metatuners-carousel-el-2-2 {
+  background-image: url('../img/metatuners/META_TUNERS_Second_Slider2.png');
+}
+
+.metatuners-carousel-el-2-3 {
+  background-image: url('../img/metatuners/META_TUNERS_Second_Slider3.png');
 }
 
 @media (max-width: 800px) {
