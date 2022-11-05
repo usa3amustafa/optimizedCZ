@@ -9,8 +9,8 @@
   max-width: 1000px;
 }
 
-#mmpr-carousel-1-img {
-  max-width: 500px;
+.zord-ill-mobile {
+  display: none;
 }
 
 @media (max-width: 800px) {
@@ -18,5 +18,13 @@
     background: url('../img/mmpr/MMPR_Container_Mobile.png');
     background-size: cover;
     background-position: center center;
+  }
+
+  .zord-ill-desktop {
+    display: none;
+  }
+
+  .zord-ill-mobile {
+    display: block;
   }
 }

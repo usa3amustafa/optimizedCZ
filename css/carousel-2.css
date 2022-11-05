@@ -2,7 +2,7 @@
   padding: 0;
 }
 
-.carousel {
+.carousel-2 {
   position: relative;
 
   height: 95vh;
@@ -10,7 +10,7 @@
   overflow: hidden;
 }
 
-.carousel-el {
+.carousel-el-2 {
   position: absolute;
   top: 0;
   left: 0;
@@ -23,7 +23,7 @@
   transition: transform 0.7s ease-in-out;
 }
 
-.carousel-el > img {
+.carousel-el-2 > img {
   width: 100%;
   max-width: 1000px;
 }
@@ -35,34 +35,34 @@
   cursor: pointer;
 }
 
-.carousel-left {
+.carousel-left-2 {
   left: 0;
 }
 
-.carousel-right {
+.carousel-right-2 {
   right: 0;
 }
 
-.carousel-left {
+.carousel-left-2 {
   left: 0%;
 }
 
-.carousel-right {
+.carousel-right-2 {
   right: 0%;
 }
 
-.carousel-el {
+.carousel-el-2 {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 @media (max-width: 960px) {
-  .carousel {
+  .carousel-2 {
     height: 75vh;
   }
 
-  .carousel-el {
+  .carousel-el-2 {
     height: 75vh;
   }
 }
@@ -72,13 +72,13 @@
     width: 20px;
   }
 
-  .carousel-el > img {
+  .carousel-el-2 > img {
     width: 95%;
   }
 }
 
 @media (max-width: 450px) {
-  .carousel {
+  .carousel-2 {
     height: 50vh;
   }
 
@@ -92,11 +92,11 @@
 }
 
 @media (max-width: 350px) {
-  .carousel {
+  .carousel-2 {
     height: 40vh;
   }
 
-  .carousel-el {
+  .carousel-el-2 {
     height: 40vh;
   }
 }
