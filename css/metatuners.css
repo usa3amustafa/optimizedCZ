@@ -94,9 +94,6 @@
     flex-direction: column;
   }
 
-  .charector-desktop {
-    display: none;
-  }
   .charector-mobile {
     display: block;
   }
