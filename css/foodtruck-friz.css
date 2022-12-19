@@ -1,0 +1,30 @@
+.foodtruck-friz {
+  background: url('../img/foodtruck-friz/FTF_Container.png');
+
+  background-size: cover;
+  background-position: center center;
+}
+
+.desktop-img {
+  display: block;
+}
+
+.mobile-img {
+  display: none;
+}
+
+@media (max-width: 800px) {
+  .foodtruck-friz {
+    background: url('../img/foodtruck-frizMob/Foodtruck_Mobile_Containers.png');
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .desktop-img {
+    display: none;
+  }
+
+  .mobile-img {
+    display: block;
+  }
+}
