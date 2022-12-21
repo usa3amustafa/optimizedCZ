@@ -1,0 +1,30 @@
+.kip-gil {
+  background: url('../img/kg/KG_Main_Container.png');
+
+  background-size: cover;
+  background-position: center center;
+}
+
+.desktop-img {
+  display: block;
+}
+
+.mobile-img {
+  display: none;
+}
+
+@media (max-width: 800px) {
+  .kip-gil {
+    background: url('../img/kgMob/KG_Mobile_Container.png');
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .desktop-img {
+    display: none;
+  }
+
+  .mobile-img {
+    display: block;
+  }
+}
