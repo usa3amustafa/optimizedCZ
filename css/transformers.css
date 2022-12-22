@@ -53,7 +53,7 @@
 
 @media (max-width: 800px) {
   .transformers {
-    background: url('../img/transformers/TF_Mobile_Container.png');
+    background: url('../img/transformersMob/TF_Mobile_Container.png');
     background-size: cover;
     background-position: center center;
   }
