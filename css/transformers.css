@@ -1,0 +1,75 @@
+.transformers {
+  background: url('../img/transformers/Transformers_Main_Container.png');
+
+  background-size: cover;
+  background-position: center center;
+}
+
+.badges {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 1rem;
+  row-gap: 1rem;
+}
+
+.desktop-img {
+  display: block;
+}
+
+.mobile-img {
+  display: none;
+}
+
+.transformers-carousel-el {
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.transformers-carousel-el-1 {
+  background-image: url('../img/transformers/TF_Slider1.png');
+}
+
+.transformers-carousel-el-2 {
+  background-image: url('../img/transformers/TF_Slider2.png');
+}
+
+.transformers-carousel-el-3 {
+  background-image: url('../img/transformers/TF_Slider3.png');
+}
+
+.transformers-carousel-el-4 {
+  background-image: url('../img/transformers/TF_Slider4.png');
+}
+
+.transformers-carousel-el-5 {
+  background-image: url('../img/transformers/TF_Slider5.png');
+}
+
+.transformers-carousel-el-6 {
+  background-image: url('../img/transformers/TF_Slider6.png');
+}
+
+@media (max-width: 800px) {
+  .transformers {
+    background: url('../img/transformers/TF_Mobile_Container.png');
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .badges {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 1rem;
+    row-gap: 1rem;
+  }
+
+  .desktop-img {
+    display: none;
+  }
+
+  .mobile-img {
+    display: block;
+  }
+}
