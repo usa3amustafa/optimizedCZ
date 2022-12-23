@@ -18,71 +18,10 @@
   margin-top: -3.5rem;
 }
 
-.badges {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  column-gap: 1rem;
-  row-gap: 1rem;
-}
-
-.desktop-img {
-  display: block;
-}
-
-.mobile-img {
-  display: none;
-}
-
-.verzuz-carousel-el {
-  height: 100%;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center center;
-}
-
-.verzuz-carousel-el-1 {
-  background-image: url('../img/transformers/TF_Slider1.png');
-}
-
-.verzuz-carousel-el-2 {
-  background-image: url('../img/transformers/TF_Slider2.png');
-}
-
-.verzuz-carousel-el-3 {
-  background-image: url('../img/transformers/TF_Slider3.png');
-}
-
-.verzuz-carousel-el-4 {
-  background-image: url('../img/transformers/TF_Slider4.png');
-}
-
-.verzuz-carousel-el-5 {
-  background-image: url('../img/transformers/TF_Slider5.png');
-}
-
-.verzuz-carousel-el-6 {
-  background-image: url('../img/transformers/TF_Slider6.png');
-}
-
 @media (max-width: 800px) {
   .verzuz {
     background: url('../img/verzuz/Verzuz_Mobile_Container.png');
     background-size: cover;
     background-position: center center;
-  }
-
-  .badges {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    column-gap: 1rem;
-    row-gap: 1rem;
-  }
-
-  .desktop-img {
-    display: none;
-  }
-
-  .mobile-img {
-    display: block;
   }
 }
