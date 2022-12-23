@@ -5,19 +5,6 @@
   background-position: center center;
 }
 
-.z-index10 {
-  z-index: 10;
-}
-
-.z-index-10 {
-  position: relative;
-  z-index: -10;
-}
-
-.mt-35 {
-  margin-top: -3.5rem;
-}
-
 @media (max-width: 800px) {
   .verzuz {
     background: url('../img/verzuz/Verzuz_Mobile_Container.png');
