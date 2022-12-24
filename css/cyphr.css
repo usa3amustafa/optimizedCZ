@@ -13,6 +13,14 @@
   background-position: center center;
 }
 
+.desktop-img {
+  display: block;
+}
+
+.mobile-img {
+  display: none;
+}
+
 .cyphr-carousel-el-1 {
   background-image: url('../img/cyphr/CYPHR_Slider1.png');
 }
@@ -94,5 +102,13 @@
     background: url('../img/cyphr/CYPHR_Mobile_Container.png');
     background-size: cover;
     background-position: center center;
+  }
+
+  .desktop-img {
+    display: none;
+  }
+
+  .mobile-img {
+    display: block;
   }
 }

@@ -5,6 +5,11 @@
   background-position: center center;
 }
 
+.pt15 {
+  padding-top: 15rem;
+  margin-top: -10rem;
+}
+
 @media (max-width: 800px) {
   .verzuz {
     background: url('../img/verzuz/Verzuz_Mobile_Container.png');
