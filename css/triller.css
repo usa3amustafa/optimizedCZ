@@ -1,98 +1,81 @@
-.cyphr {
-  background: url('../img/cyphr/CYPHR_Main_Container.png');
+.triller {
+  background: url('../img/triller/Triller_Main_container.png');
 
   background-size: cover;
   background-position: center center;
 }
 
-.cyphr-carousel-el {
+.desktop-img {
+  display: block;
+}
+
+.mobile-img {
+  display: none;
+}
+
+.triller-carousel-el {
   height: 100%;
   background-size: contain;
-  background-size: 90%;
   background-repeat: no-repeat;
   background-position: center center;
 }
 
-.cyphr-carousel-el-1 {
-  background-image: url('../img/cyphr/CYPHR_Slider1.png');
+.triller-carousel-el-1 {
+  background-image: url('../img/triller/triller_Slider1.png');
 }
 
-.cyphr-carousel-el-2 {
-  background-image: url('../img/cyphr/CYPHR_Slider2.png');
+.triller-carousel-el-2 {
+  background-image: url('../img/triller/triller_Slider2.png');
 }
 
-.cyphr-carousel-el-3 {
-  background-image: url('../img/cyphr/CYPHR_Slider3.png');
+.triller-carousel-el-3 {
+  background-image: url('../img/triller/triller_Slider3.png');
 }
 
-.cyphr-carousel-el-4 {
-  background-image: url('../img/cyphr/CYPHR_Slider4.png');
+.triller-carousel-el-4 {
+  background-image: url('../img/triller/triller_Slider4.png');
 }
 
-.cyphr-carousel-el-5 {
-  background-image: url('../img/cyphr/CYPHR_Slider5.png');
+.triller-carousel-el-5 {
+  background-image: url('../img/triller/triller_Slider5.png');
 }
 
-.cyphr-carousel-el-6 {
-  background-image: url('../img/cyphr/CYPHR_Slider6.png');
+.triller-carousel-el-6 {
+  background-image: url('../img/triller/triller_Slider6.png');
 }
 
-.cyphr-carousel-el-7 {
-  background-image: url('../img/cyphr/CYPHR_Slider7.png');
+.triller-carousel-el-7 {
+  background-image: url('../img/triller/triller_Slider7.png');
 }
 
-.cyphr-carousel-el-8 {
-  background-image: url('../img/cyphr/CYPHR_Slider8.png');
+.triller-carousel-el-8 {
+  background-image: url('../img/triller/triller_Slider8.png');
 }
 
-.cyphr-carousel-el-9 {
-  background-image: url('../img/cyphr/CYPHR_Slider9.png');
+.triller-carousel-el-9 {
+  background-image: url('../img/triller/triller_Slider9.png');
 }
 
-.cyphr-carousel-el-10 {
-  background-image: url('../img/cyphr/CYPHR_Slider10.png');
+.triller-carousel-el-10 {
+  background-image: url('../img/triller/triller_Slider10.png');
 }
 
-.cyphr-carousel-el-11 {
-  background-image: url('../img/cyphr/CYPHR_Slider11.png');
-}
-
-.cyphr-carousel-el-12 {
-  background-image: url('../img/cyphr/CYPHR_Slider12.png');
-}
-
-.cyphr-carousel-el-2-1 {
-  background-image: url('../img/cyphr/CYPHR_Slider_V2_1.png');
-}
-
-.cyphr-carousel-el-2-2 {
-  background-image: url('../img/cyphr/CYPHR_Slider_V2_2.png');
-}
-
-.cyphr-carousel-el-2-3 {
-  background-image: url('../img/cyphr/CYPHR_Slider_V2_3.png');
-}
-
-.cyphr-carousel-el-2-4 {
-  background-image: url('../img/cyphr/CYPHR_Slider_V2_4.png');
-}
-
-.cyphr-carousel-el-2-5 {
-  background-image: url('../img/cyphr/CYPHR_Slider_V2_5.png');
-}
-
-.cyphr-carousel-el-2-6 {
-  background-image: url('../img/cyphr/CYPHR_Slider_V2_6.png');
-}
-
-.cyphr-carousel-el-2-7 {
-  background-image: url('../img/cyphr/CYPHR_Slider_V2_7.png');
+.triller-carousel-el-11 {
+  background-image: url('../img/triller/triller_Slider11.png');
 }
 
 @media (max-width: 800px) {
-  .cyphr {
-    background: url('../img/cyphr/CYPHR_Mobile_Container.png');
+  .triller {
+    background: url('../img/trillerMob/Triller_Mobile_Container.png');
     background-size: cover;
     background-position: center center;
+  }
+
+  .desktop-img {
+    display: none;
+  }
+
+  .mobile-img {
+    display: block;
   }
 }
