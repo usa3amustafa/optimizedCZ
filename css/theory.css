@@ -1,0 +1,89 @@
+.theory {
+  background: url('../img/theory/Theory_Main_container.png');
+
+  background-size: cover;
+  background-position: center center;
+}
+
+.desktop-img {
+  display: block;
+}
+
+.mobile-img {
+  display: none;
+}
+
+.theory-carousel-el {
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.theory-carousel-el-1 {
+  background-image: url('../img/theory/theory_Slider1.png');
+}
+
+.theory-carousel-el-2 {
+  background-image: url('../img/theory/theory_Slider2.png');
+}
+
+.theory-carousel-el-3 {
+  background-image: url('../img/theory/theory_Slider3.png');
+}
+
+.theory-carousel-el-4 {
+  background-image: url('../img/theory/theory_Slider4.png');
+}
+
+.theory-carousel-el-5 {
+  background-image: url('../img/theory/theory_Slider5.png');
+}
+
+.theory-carousel-el-6 {
+  background-image: url('../img/theory/theory_Slider6.png');
+}
+
+.theory-carousel-el-7 {
+  background-image: url('../img/theory/theory_Slider7.png');
+}
+
+.theory-carousel-el-8 {
+  background-image: url('../img/theory/theory_Slider8.png');
+}
+
+.theory-carousel-el-9 {
+  background-image: url('../img/theory/theory_Slider9.png');
+}
+
+.theory-carousel-el-10 {
+  background-image: url('../img/theory/theory_Slider10.png');
+}
+
+.theory-carousel-el-11 {
+  background-image: url('../img/theory/theory_Slider11.png');
+}
+
+.theory-carousel-el-2-1 {
+  background-image: url('../img/theory/Theory_Pins_Slider1.png');
+}
+
+.theory-carousel-el-2-2 {
+  background-image: url('../img/theory/Theory_Pins_Slider2.png');
+}
+
+@media (max-width: 800px) {
+  .theory {
+    background: url('../img/theory/Theory_Mobile_Container.png');
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .desktop-img {
+    display: none;
+  }
+
+  .mobile-img {
+    display: block;
+  }
+}

@@ -1,0 +1,49 @@
+.fight-club {
+  background: url('../img/fightclub/Fightclub_Main_Container.png');
+
+  background-size: cover;
+  background-position: center center;
+}
+
+.desktop-img {
+  display: block;
+}
+
+.mobile-img {
+  display: none;
+}
+
+.fight-carousel-el {
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.fight-carousel-el-1 {
+  background-image: url('../img/fightclub/Fightclub_Slider1.png');
+}
+
+.fight-carousel-el-2 {
+  background-image: url('../img/fightclub/Fightclub_Slider2.png');
+}
+
+.fight-carousel-el-3 {
+  background-image: url('../img/fightclub/Fightclub_Slider3.png');
+}
+
+@media (max-width: 800px) {
+  .fight-club {
+    background: url('../img/fightclubMob/fightclub_Mobile_Container.png');
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .desktop-img {
+    display: none;
+  }
+
+  .mobile-img {
+    display: block;
+  }
+}
