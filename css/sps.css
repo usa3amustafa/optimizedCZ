@@ -1,0 +1,73 @@
+.sps {
+  background: url('../img/sps/StandardPrint_Main_Container.png');
+
+  background-size: cover;
+  background-position: center center;
+}
+
+.grid-el {
+  max-width: 500px;
+}
+
+.desktop-img {
+  display: flex;
+  margin-bottom: 3rem;
+}
+
+.mobile-img {
+  display: none;
+  margin-bottom: 0;
+}
+
+.sps-carousel-el {
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.sps-carousel-el-1 {
+  background-image: url('../img/sps/StandardPrint_Slider1.png');
+}
+
+.sps-carousel-el-2 {
+  background-image: url('../img/sps/StandardPrint_Slider2.png');
+}
+
+.sps-carousel-el-3 {
+  background-image: url('../img/sps/StandardPrint_Slider3.png');
+}
+
+.sps-carousel-el-4 {
+  background-image: url('../img/sps/StandardPrint_Slider4.png');
+}
+
+.sps-carousel-el-5 {
+  background-image: url('../img/sps/StandardPrint_Slider5.png');
+}
+
+.sps-carousel-el-6 {
+  background-image: url('../img/sps/StandardPrint_Slider6.png');
+}
+
+.sps-carousel-el-7 {
+  background-image: url('../img/sps/StandardPrint_Slider7.png');
+}
+
+@media (max-width: 800px) {
+  .sps {
+    background: url('../img/spsMob/StandardPrint_Mobile_Container.png');
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .desktop-img {
+    display: none;
+    margin: 0;
+  }
+
+  .mobile-img {
+    display: flex;
+    margin-bottom: 3rem;
+  }
+}
