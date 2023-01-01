@@ -5,6 +5,10 @@
   background-position: center center;
 }
 
+.read-more {
+  color: var(--black-clr);
+}
+
 .logos-carousel {
   padding: 2rem 0;
 }
