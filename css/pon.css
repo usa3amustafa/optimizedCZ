@@ -5,22 +5,6 @@
   background-position: center center;
 }
 
-.pon-header-2 {
-  background: url('../img/pon/PON_Sketches.png');
-
-  height: 95vh;
-  background-size: cover;
-  background-position: center center;
-}
-
-.pon-header-3 {
-  background: url('../img/pon/PON_Final_Collage.png');
-
-  height: 95vh;
-  background-size: cover;
-  background-position: center center;
-}
-
 .desktop-img {
   display: block;
 }
@@ -32,18 +16,6 @@
 @media (max-width: 800px) {
   .pon {
     background: url('../img/ponMob/PON_Mobile_Container.png');
-    background-size: cover;
-    background-position: center center;
-  }
-
-  .pon-header-2 {
-    background: url('../img/ponMob/PON_Mobile_Sketches.png');
-    background-position: center center;
-    background-size: cover;
-  }
-
-  .pon-header-3 {
-    background: url('../img/ponMob/PON_Mobile_pigeons.png');
     background-size: cover;
     background-position: center center;
   }
