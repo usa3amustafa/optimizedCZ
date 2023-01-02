@@ -5,6 +5,25 @@
   background-position: center center;
 }
 
+.charge-carousel-el {
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.charge-carousel-el-1 {
+  background-image: url('../img/charge/charge_Slider1.webp');
+}
+
+.charge-carousel-el-2 {
+  background-image: url('../img/charge/Charge_Slider2.webp');
+}
+
+.charge-carousel-el-3 {
+  background-image: url('../img/charge/Charge_Slider3.webp');
+}
+
 @media (max-width: 800px) {
   .charge {
     background: url('../img/charge/Charge_Mobile_Containers.webp');

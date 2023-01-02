@@ -21,52 +21,52 @@
 }
 
 .triller-carousel-el-1 {
-  background-image: url('../img/triller/triller_Slider1.png');
+  background-image: url('../img/triller/Triller_Slider1.png');
 }
 
 .triller-carousel-el-2 {
-  background-image: url('../img/triller/triller_Slider2.png');
+  background-image: url('../img/triller/Triller_Slider2.png');
 }
 
 .triller-carousel-el-3 {
-  background-image: url('../img/triller/triller_Slider3.png');
+  background-image: url('../img/triller/Triller_Slider3.png');
 }
 
 .triller-carousel-el-4 {
-  background-image: url('../img/triller/triller_Slider4.png');
+  background-image: url('../img/triller/Triller_Slider4.png');
 }
 
 .triller-carousel-el-5 {
-  background-image: url('../img/triller/triller_Slider5.png');
+  background-image: url('../img/triller/Triller_Slider5.png');
 }
 
 .triller-carousel-el-6 {
-  background-image: url('../img/triller/triller_Slider6.png');
+  background-image: url('../img/triller/Triller_Slider6.png');
 }
 
 .triller-carousel-el-7 {
-  background-image: url('../img/triller/triller_Slider7.png');
+  background-image: url('../img/triller/Triller_Slider7.png');
 }
 
 .triller-carousel-el-8 {
-  background-image: url('../img/triller/triller_Slider8.png');
+  background-image: url('../img/triller/Triller_Slider8.png');
 }
 
 .triller-carousel-el-9 {
-  background-image: url('../img/triller/triller_Slider9.png');
+  background-image: url('../img/triller/Triller_Slider9.png');
 }
 
 .triller-carousel-el-10 {
-  background-image: url('../img/triller/triller_Slider10.png');
+  background-image: url('../img/triller/Triller_Slider10.png');
 }
 
 .triller-carousel-el-11 {
-  background-image: url('../img/triller/triller_Slider11.png');
+  background-image: url('../img/triller/Triller_Slider11.png');
 }
 
 @media (max-width: 800px) {
   .triller {
-    background: url('../img/trillerMob/Triller_Mobile_Container.png');
+    background: url('../img/TrillerMob/Triller_Mobile_Container.png');
     background-size: cover;
     background-position: center center;
   }

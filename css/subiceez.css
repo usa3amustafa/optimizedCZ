@@ -52,6 +52,10 @@
   background-image: url('../img/subiceez/Subiceez_Slder7.png');
 }
 
+.see-more {
+  max-width: 220px;
+}
+
 @media (max-width: 800px) {
   .subiceez {
     background: url('../img/subiceez/Subiceez_Mobile_Container.png');
