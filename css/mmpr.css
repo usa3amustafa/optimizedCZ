@@ -48,6 +48,30 @@
   background-image: url('../img/mmpr/sliderA/MMPR_SliderA_7.png');
 }
 
+.mmpr-carousel-el-2-1 {
+  background-image: url('../img/mmpr/sliderB/MMPR_SliderB_1.png');
+}
+
+.mmpr-carousel-el-2-2 {
+  background-image: url('../img/mmpr/sliderB/MMPR_SliderB_2.png');
+}
+
+.mmpr-carousel-el-2-3 {
+  background-image: url('../img/mmpr/sliderB/MMPR_SliderB_3.png');
+}
+
+.mmpr-carousel-el-2-4 {
+  background-image: url('../img/mmpr/sliderB/MMPR_SliderB_4.png');
+}
+
+.mmpr-carousel-el-2-5 {
+  background-image: url('../img/mmpr/sliderB/MMPR_SliderB_5.png');
+}
+
+.mmpr-carousel-el-2-6 {
+  background-image: url('../img/mmpr/sliderB/MMPR_SliderB_6.png');
+}
+
 @media (max-width: 800px) {
   .mmpr {
     background: url('../img/mmpr/MMPR_Container_Mobile.png');
