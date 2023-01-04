@@ -1,5 +1,5 @@
 .theory {
-  background: url('../img/theory/Theory_Main_Container.png');
+  background: url('../img/theory/Theory_Main_Container.webp');
 
   background-size: cover;
   background-position: center center;
@@ -21,60 +21,60 @@
 }
 
 .theory-carousel-el-1 {
-  background-image: url('../img/theory/Theory_Slider1.png');
+  background-image: url('../img/theory/Theory_Slider1.webp');
 }
 
 .theory-carousel-el-2 {
-  background-image: url('../img/theory/Theory_Slider2.png');
+  background-image: url('../img/theory/Theory_Slider2.webp');
 }
 
 .theory-carousel-el-3 {
-  background-image: url('../img/theory/Theory_Slider3.png');
+  background-image: url('../img/theory/Theory_Slider3.webp');
 }
 
 .theory-carousel-el-4 {
-  background-image: url('../img/theory/Theory_Slider4.png');
+  background-image: url('../img/theory/Theory_Slider4.webp');
 }
 
 .theory-carousel-el-5 {
-  background-image: url('../img/theory/Theory_Slider5.png');
+  background-image: url('../img/theory/Theory_Slider5.webp');
 }
 
 .theory-carousel-el-6 {
-  background-image: url('../img/theory/Theory_Slider6.png');
+  background-image: url('../img/theory/Theory_Slider6.webp');
 }
 
 .theory-carousel-el-7 {
-  background-image: url('../img/theory/Theory_Slider7.png');
+  background-image: url('../img/theory/Theory_Slider7.webp');
 }
 
 .theory-carousel-el-8 {
-  background-image: url('../img/theory/Theory_Slider8.png');
+  background-image: url('../img/theory/Theory_Slider8.webp');
 }
 
 .theory-carousel-el-9 {
-  background-image: url('../img/theory/Theory_Slider9.png');
+  background-image: url('../img/theory/Theory_Slider9.webp');
 }
 
 .theory-carousel-el-10 {
-  background-image: url('../img/theory/Theory_Slider10.png');
+  background-image: url('../img/theory/Theory_Slider10.webp');
 }
 
 .theory-carousel-el-11 {
-  background-image: url('../img/theory/Theory_Slider11.png');
+  background-image: url('../img/theory/Theory_Slider11.webp');
 }
 
 .theory-carousel-el-2-1 {
-  background-image: url('../img/theory/Theory_Pins_Slider1.png');
+  background-image: url('../img/theory/Theory_Pins_Slider1.webp');
 }
 
 .theory-carousel-el-2-2 {
-  background-image: url('../img/theory/Theory_Pins_Slider2.png');
+  background-image: url('../img/theory/Theory_Pins_Slider2.webp');
 }
 
 @media (max-width: 800px) {
   .theory {
-    background: url('../img/theory/Theory_Mobile_Container.png');
+    background: url('../img/theory/Theory_Mobile_Container.webp');
     background-size: cover;
     background-position: center center;
   }

@@ -1,5 +1,5 @@
 .verzuz {
-  background: url('../img/verzuz/Verzuz_Main_Container.png');
+  background: url('../img/verzuz/Verzuz_Main_Container.webp');
 
   background-size: cover;
   background-position: center center;
@@ -12,7 +12,7 @@
 
 @media (max-width: 800px) {
   .verzuz {
-    background: url('../img/verzuz/Verzuz_Mobile_Container.png');
+    background: url('../img/verzuz/Verzuz_Mobile_Container.webp');
     background-size: cover;
     background-position: center center;
   }

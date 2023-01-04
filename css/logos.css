@@ -1,5 +1,5 @@
 .logos {
-  background: url('../img/logos/Logos_Main_Container.png');
+  background: url('../img/logos/Logos_Main_Container.webp');
 
   background-size: cover;
   background-position: center center;
@@ -96,7 +96,7 @@
 
 @media (max-width: 800px) {
   .logos {
-    background: url('../img/logos/Logos_Container_Mobile.png');
+    background: url('../img/logos/Logos_Container_Mobile.webp');
 
     background-size: cover;
     background-position: center center;

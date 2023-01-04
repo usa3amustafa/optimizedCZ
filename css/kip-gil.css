@@ -1,5 +1,5 @@
 .kip-gil {
-  background: url('../img/kg/KG_Main_Container.png');
+  background: url('../img/kg/KG_Main_Container.webp');
 
   background-size: cover;
   background-position: center center;
@@ -21,25 +21,25 @@
 }
 
 .kg-carousel-el-1 {
-  background-image: url('../img/kg/KG_Slider1.png');
+  background-image: url('../img/kg/KG_Slider1.webp');
   background-size: 90%;
 }
 
 .kg-carousel-el-2 {
-  background-image: url('../img/kg/KG_Slider2.png');
+  background-image: url('../img/kg/KG_Slider2.webp');
 }
 
 .kg-carousel-el-3 {
-  background-image: url('../img/kg/KG_Slider3.png');
+  background-image: url('../img/kg/KG_Slider3.webp');
 }
 
 .kg-carousel-el-4 {
-  background-image: url('../img/kg/KG_Slider4.png');
+  background-image: url('../img/kg/KG_Slider4.webp');
 }
 
 @media (max-width: 800px) {
   .kip-gil {
-    background: url('../img/kgMob/KG_Mobile_Container.png');
+    background: url('../img/kgMob/KG_Mobile_Container.webp');
     background-size: cover;
     background-position: center center;
   }

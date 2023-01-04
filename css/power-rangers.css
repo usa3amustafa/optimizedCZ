@@ -1,5 +1,5 @@
 .power-rangers {
-  background: url('../img/powerRangers/PowerRangers_Container.png');
+  background: url('../img/powerRangers/PowerRangers_Container.webp');
 
   background-size: cover;
   background-position: center center;
@@ -18,40 +18,40 @@
 }
 
 .pr-carousel-el-1 {
-  background-image: url('../img/powerRangers/PowerRangers_Slider1.png');
+  background-image: url('../img/powerRangers/PowerRangers_Slider1.webp');
 }
 
 .pr-carousel-el-2 {
-  background-image: url('../img/powerRangers/PowerRangers_Slider2.png');
+  background-image: url('../img/powerRangers/PowerRangers_Slider2.webp');
 }
 
 .pr-carousel-el-3 {
-  background-image: url('../img/powerRangers/PowerRangers_Slider3.png');
+  background-image: url('../img/powerRangers/PowerRangers_Slider3.webp');
 }
 
 .pr-carousel-el-4 {
-  background-image: url('../img/powerRangers/PowerRangers_Slider4.png');
+  background-image: url('../img/powerRangers/PowerRangers_Slider4.webp');
 }
 
 .pr-carousel-el-5 {
-  background-image: url('../img/powerRangers/PowerRangers_Slider5.png');
+  background-image: url('../img/powerRangers/PowerRangers_Slider5.webp');
 }
 
 .pr-carousel-el-6 {
-  background-image: url('../img/powerRangers/PowerRangers_Slider6.png');
+  background-image: url('../img/powerRangers/PowerRangers_Slider6.webp');
 }
 
 .pr-carousel-el-7 {
-  background-image: url('../img/powerRangers/PowerRangers_Slider7.png');
+  background-image: url('../img/powerRangers/PowerRangers_Slider7.webp');
 }
 
 .pr-carousel-el-8 {
-  background-image: url('../img/powerRangers/PowerRangers_Slider8.png');
+  background-image: url('../img/powerRangers/PowerRangers_Slider8.webp');
 }
 
 @media (max-width: 800px) {
   .power-rangers {
-    background: url('../img/powerRangers/Power_Rangers_Container_Main.png');
+    background: url('../img/powerRangers/Power_Rangers_Container_Main.webp');
 
     background-size: cover;
     background-position: center center;

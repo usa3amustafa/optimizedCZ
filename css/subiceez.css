@@ -1,5 +1,5 @@
 .subiceez {
-  background: url('../img/subiceez/Subiceez_Main_Container.png');
+  background: url('../img/subiceez/Subiceez_Main_Container.webp');
 
   background-size: cover;
   background-position: center center;
@@ -25,31 +25,31 @@
 }
 
 .subiceez-carousel-el-1 {
-  background-image: url('../img/subiceez/Subiceez_Slder1.png');
+  background-image: url('../img/subiceez/Subiceez_Slder1.webp');
 }
 
 .subiceez-carousel-el-2 {
-  background-image: url('../img/subiceez/Subiceez_Slder2.png');
+  background-image: url('../img/subiceez/Subiceez_Slder2.webp');
 }
 
 .subiceez-carousel-el-3 {
-  background-image: url('../img/subiceez/Subiceez_Slder3.png');
+  background-image: url('../img/subiceez/Subiceez_Slder3.webp');
 }
 
 .subiceez-carousel-el-4 {
-  background-image: url('../img/subiceez/Subiceez_Slder4.png');
+  background-image: url('../img/subiceez/Subiceez_Slder4.webp');
 }
 
 .subiceez-carousel-el-5 {
-  background-image: url('../img/subiceez/Subiceez_Slder5.png');
+  background-image: url('../img/subiceez/Subiceez_Slder5.webp');
 }
 
 .subiceez-carousel-el-6 {
-  background-image: url('../img/subiceez/Subiceez_Slder6.png');
+  background-image: url('../img/subiceez/Subiceez_Slder6.webp');
 }
 
 .subiceez-carousel-el-7 {
-  background-image: url('../img/subiceez/Subiceez_Slder7.png');
+  background-image: url('../img/subiceez/Subiceez_Slder7.webp');
 }
 
 .see-more {
@@ -58,7 +58,7 @@
 
 @media (max-width: 800px) {
   .subiceez {
-    background: url('../img/subiceez/Subiceez_Mobile_Container.png');
+    background: url('../img/subiceez/Subiceez_Mobile_Container.webp');
     background-size: cover;
     background-position: center center;
   }

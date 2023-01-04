@@ -1,5 +1,5 @@
 .cybear {
-  background: url('../img/cybear/cybear_main_container.png');
+  background: url('../img/cybear/cybear_main_container.webp');
 
   background-size: cover;
   background-position: center center;
@@ -15,7 +15,7 @@
 
 @media (max-width: 800px) {
   .cybear {
-    background: url('../img/cybear/CYBEAR_Mobile_Containers.png');
+    background: url('../img/cybear/CYBEAR_Mobile_Containers.webp');
     background-size: cover;
     background-position: center center;
   }

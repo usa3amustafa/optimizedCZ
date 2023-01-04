@@ -1,5 +1,5 @@
 .mmpr {
-  background: url('../img/mmpr/MMPR_Main_Container.png');
+  background: url('../img/mmpr/MMPR_Main_Container.webp');
 
   background-size: cover;
   background-position: center center;
@@ -21,60 +21,60 @@
 }
 
 .mmpr-carousel-el-1 {
-  background-image: url('../img/mmpr/sliderA/MMPR_SliderA_1.png');
+  background-image: url('../img/mmpr/sliderA/MMPR_SliderA_1.webp');
 }
 
 .mmpr-carousel-el-2 {
-  background-image: url('../img/mmpr/sliderA/MMPR_SliderA_2.png');
+  background-image: url('../img/mmpr/sliderA/MMPR_SliderA_2.webp');
 }
 
 .mmpr-carousel-el-3 {
-  background-image: url('../img/mmpr/sliderA/MMPR_SliderA_3.png');
+  background-image: url('../img/mmpr/sliderA/MMPR_SliderA_3.webp');
 }
 
 .mmpr-carousel-el-4 {
-  background-image: url('../img/mmpr/sliderA/MMPR_SliderA_4.png');
+  background-image: url('../img/mmpr/sliderA/MMPR_SliderA_4.webp');
 }
 
 .mmpr-carousel-el-5 {
-  background-image: url('../img/mmpr/sliderA/MMPR_SliderA_5.png');
+  background-image: url('../img/mmpr/sliderA/MMPR_SliderA_5.webp');
 }
 
 .mmpr-carousel-el-6 {
-  background-image: url('../img/mmpr/sliderA/MMPR_SliderA_6.png');
+  background-image: url('../img/mmpr/sliderA/MMPR_SliderA_6.webp');
 }
 
 .mmpr-carousel-el-7 {
-  background-image: url('../img/mmpr/sliderA/MMPR_SliderA_7.png');
+  background-image: url('../img/mmpr/sliderA/MMPR_SliderA_7.webp');
 }
 
 .mmpr-carousel-el-2-1 {
-  background-image: url('../img/mmpr/sliderB/MMPR_SliderB_1.png');
+  background-image: url('../img/mmpr/sliderB/MMPR_SliderB_1.webp');
 }
 
 .mmpr-carousel-el-2-2 {
-  background-image: url('../img/mmpr/sliderB/MMPR_SliderB_2.png');
+  background-image: url('../img/mmpr/sliderB/MMPR_SliderB_2.webp');
 }
 
 .mmpr-carousel-el-2-3 {
-  background-image: url('../img/mmpr/sliderB/MMPR_SliderB_3.png');
+  background-image: url('../img/mmpr/sliderB/MMPR_SliderB_3.webp');
 }
 
 .mmpr-carousel-el-2-4 {
-  background-image: url('../img/mmpr/sliderB/MMPR_SliderB_4.png');
+  background-image: url('../img/mmpr/sliderB/MMPR_SliderB_4.webp');
 }
 
 .mmpr-carousel-el-2-5 {
-  background-image: url('../img/mmpr/sliderB/MMPR_SliderB_5.png');
+  background-image: url('../img/mmpr/sliderB/MMPR_SliderB_5.webp');
 }
 
 .mmpr-carousel-el-2-6 {
-  background-image: url('../img/mmpr/sliderB/MMPR_SliderB_6.png');
+  background-image: url('../img/mmpr/sliderB/MMPR_SliderB_6.webp');
 }
 
 @media (max-width: 800px) {
   .mmpr {
-    background: url('../img/mmpr/MMPR_Container_Mobile.png');
+    background: url('../img/mmpr/MMPR_Container_Mobile.webp');
     background-size: cover;
     background-position: center center;
   }

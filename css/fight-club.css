@@ -1,5 +1,5 @@
 .fight-club {
-  background: url('../img/fightclub/Fightclub_Main_Container.png');
+  background: url('../img/fightclub/Fightclub_Main_Container.webp');
 
   background-size: cover;
   background-position: center center;
@@ -21,20 +21,20 @@
 }
 
 .fight-carousel-el-1 {
-  background-image: url('../img/fightclub/Fightclub_Slider1.png');
+  background-image: url('../img/fightclub/Fightclub_Slider1.webp');
 }
 
 .fight-carousel-el-2 {
-  background-image: url('../img/fightclub/Fightclub_Slider2.png');
+  background-image: url('../img/fightclub/Fightclub_Slider2.webp');
 }
 
 .fight-carousel-el-3 {
-  background-image: url('../img/fightclub/Fightclub_Slider3.png');
+  background-image: url('../img/fightclub/Fightclub_Slider3.webp');
 }
 
 @media (max-width: 800px) {
   .fight-club {
-    background: url('../img/fightclubMob/FightClub_Mobile_Container.png');
+    background: url('../img/fightclubMob/FightClub_Mobile_Container.webp');
     background-size: cover;
     background-position: center center;
   }

@@ -1,5 +1,5 @@
 .pon {
-  background: url('../img/pon/PON_Main_Container.png');
+  background: url('../img/pon/PON_Main_Container.webp');
 
   background-size: cover;
   background-position: center center;
@@ -15,7 +15,7 @@
 
 @media (max-width: 800px) {
   .pon {
-    background: url('../img/ponMob/PON_Mobile_Container.png');
+    background: url('../img/ponMob/PON_Mobile_Container.webp');
     background-size: cover;
     background-position: center center;
   }

@@ -1,5 +1,5 @@
 .transformers {
-  background: url('../img/transformers/Transformers_Main_Container.png');
+  background: url('../img/transformers/Transformers_Main_Container.webp');
 
   background-size: cover;
   background-position: center center;
@@ -28,32 +28,32 @@
 }
 
 .transformers-carousel-el-1 {
-  background-image: url('../img/transformers/TF_Slider1.png');
+  background-image: url('../img/transformers/TF_Slider1.webp');
 }
 
 .transformers-carousel-el-2 {
-  background-image: url('../img/transformers/TF_Slider2.png');
+  background-image: url('../img/transformers/TF_Slider2.webp');
 }
 
 .transformers-carousel-el-3 {
-  background-image: url('../img/transformers/TF_Slider3.png');
+  background-image: url('../img/transformers/TF_Slider3.webp');
 }
 
 .transformers-carousel-el-4 {
-  background-image: url('../img/transformers/TF_Slider4.png');
+  background-image: url('../img/transformers/TF_Slider4.webp');
 }
 
 .transformers-carousel-el-5 {
-  background-image: url('../img/transformers/TF_Slider5.png');
+  background-image: url('../img/transformers/TF_Slider5.webp');
 }
 
 .transformers-carousel-el-6 {
-  background-image: url('../img/transformers/TF_Slider6.png');
+  background-image: url('../img/transformers/TF_Slider6.webp');
 }
 
 @media (max-width: 800px) {
   .transformers {
-    background: url('../img/transformersMob/TF_Mobile_Container.png');
+    background: url('../img/transformersMob/TF_Mobile_Container.webp');
     background-size: cover;
     background-position: center center;
   }

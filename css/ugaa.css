@@ -1,5 +1,5 @@
 .ugaa {
-  background: url('../img/ugaa/UGAA_Main_Container.png');
+  background: url('../img/ugaa/UGAA_Main_Container.webp');
 
   background-size: cover;
   background-position: center center;
@@ -26,7 +26,7 @@
 
 @media (max-width: 800px) {
   .ugaa {
-    background: url('../img/ugaa/UGAA_Mobile_container.png');
+    background: url('../img/ugaa/UGAA_Mobile_container.webp');
 
     background-size: cover;
     background-position: center center;

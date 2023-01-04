@@ -1,5 +1,5 @@
 .metatuners {
-  background: url('../img/metatuners/META_TUNERS_Main_Container.png');
+  background: url('../img/metatuners/META_TUNERS_Main_Container.webp');
 
   background-size: cover;
   background-position: center center;
@@ -32,60 +32,60 @@
 }
 
 .metatuners-carousel-el-1 {
-  background-image: url('../img/metatuners/META_TUNERS_Slider1.png');
+  background-image: url('../img/metatuners/META_TUNERS_Slider1.webp');
 }
 
 .metatuners-carousel-el-2 {
-  background-image: url('../img/metatuners/META_TUNERS_Slider2.png');
+  background-image: url('../img/metatuners/META_TUNERS_Slider2.webp');
 }
 
 .metatuners-carousel-el-3 {
-  background-image: url('../img/metatuners/META_TUNERS_Slider3.png');
+  background-image: url('../img/metatuners/META_TUNERS_Slider3.webp');
 }
 
 .metatuners-carousel-el-4 {
-  background-image: url('../img/metatuners/META_TUNERS_Slider4.png');
+  background-image: url('../img/metatuners/META_TUNERS_Slider4.webp');
 }
 
 .metatuners-carousel-el-5 {
-  background-image: url('../img/metatuners/META_TUNERS_Slider5.png');
+  background-image: url('../img/metatuners/META_TUNERS_Slider5.webp');
 }
 
 .metatuners-carousel-el-6 {
-  background-image: url('../img/metatuners/META_TUNERS_Slider6.png');
+  background-image: url('../img/metatuners/META_TUNERS_Slider6.webp');
 }
 
 .metatuners-carousel-el-7 {
-  background-image: url('../img/metatuners/META_TUNERS_Slider7.png');
+  background-image: url('../img/metatuners/META_TUNERS_Slider7.webp');
 }
 
 .metatuners-carousel-el-8 {
-  background-image: url('../img/metatuners/META_TUNERS_Slider8.png');
+  background-image: url('../img/metatuners/META_TUNERS_Slider8.webp');
 }
 
 .metatuners-carousel-el-9 {
-  background-image: url('../img/metatuners/META_TUNERS_Slider9.png');
+  background-image: url('../img/metatuners/META_TUNERS_Slider9.webp');
 }
 
 .metatuners-carousel-el-10 {
-  background-image: url('../img/metatuners/META_TUNERS_Slider10.png');
+  background-image: url('../img/metatuners/META_TUNERS_Slider10.webp');
 }
 
 .metatuners-carousel-el-2-1 {
-  background-image: url('../img/metatuners/META_TUNERS_Second_Slider1.png');
+  background-image: url('../img/metatuners/META_TUNERS_Second_Slider1.webp');
 }
 
 .metatuners-carousel-el-2-2 {
-  background-image: url('../img/metatuners/META_TUNERS_Second_Slider2.png');
+  background-image: url('../img/metatuners/META_TUNERS_Second_Slider2.webp');
 }
 
 .metatuners-carousel-el-2-3 {
-  background-image: url('../img/metatuners/META_TUNERS_Second_Slider3.png');
+  background-image: url('../img/metatuners/META_TUNERS_Second_Slider3.webp');
 }
 
 @media (max-width: 800px) {
   .metatuners {
-    background: url('../img/metatunersMobile/Meta_Tuners_Mobile_Container.png');
+    background: url('../img/metatunersMobile/Meta_Tuners_Mobile_Container.webp');
     background-size: cover;
     background-position: center center;
   }

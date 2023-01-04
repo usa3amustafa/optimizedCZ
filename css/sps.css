@@ -1,5 +1,5 @@
 .sps {
-  background: url('../img/sps/StandardPrint_Main_Container.png');
+  background: url('../img/sps/StandardPrint_Main_Container.webp');
 
   background-size: cover;
   background-position: center center;
@@ -27,36 +27,36 @@
 }
 
 .sps-carousel-el-1 {
-  background-image: url('../img/sps/StandardPrint_Slider1.png');
+  background-image: url('../img/sps/StandardPrint_Slider1.webp');
 }
 
 .sps-carousel-el-2 {
-  background-image: url('../img/sps/StandardPrint_Slider2.png');
+  background-image: url('../img/sps/StandardPrint_Slider2.webp');
 }
 
 .sps-carousel-el-3 {
-  background-image: url('../img/sps/StandardPrint_Slider3.png');
+  background-image: url('../img/sps/StandardPrint_Slider3.webp');
 }
 
 .sps-carousel-el-4 {
-  background-image: url('../img/sps/StandardPrint_Slider4.png');
+  background-image: url('../img/sps/StandardPrint_Slider4.webp');
 }
 
 .sps-carousel-el-5 {
-  background-image: url('../img/sps/StandardPrint_Slider5.png');
+  background-image: url('../img/sps/StandardPrint_Slider5.webp');
 }
 
 .sps-carousel-el-6 {
-  background-image: url('../img/sps/StandardPrint_Slider6.png');
+  background-image: url('../img/sps/StandardPrint_Slider6.webp');
 }
 
 .sps-carousel-el-7 {
-  background-image: url('../img/sps/StandardPrint_Slider7.png');
+  background-image: url('../img/sps/StandardPrint_Slider7.webp');
 }
 
 @media (max-width: 800px) {
   .sps {
-    background: url('../img/spsMob/StandardPrint_Mobile_Container.png');
+    background: url('../img/spsMob/StandardPrint_Mobile_Container.webp');
     background-size: cover;
     background-position: center center;
   }
