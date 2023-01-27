@@ -47,6 +47,9 @@ if (filter_var($_POST['email'] , FILTER_VALIDATE_EMAIL)) {
   
 
     <!-- css -->
+<!-- utilities -->
+<link rel="stylesheet" href="utilities.css">
+
 <style>
   
 
