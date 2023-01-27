@@ -1,8 +1,33 @@
+@font-face {
+  font-family: 'SUPR-Tall';
+  font-weight: normal;
+  src: local('SUPR TALL'), url('../fonts/SUPR-Tall.woff2');
+}
+
+@font-face {
+  font-family: 'SUPR-Tall';
+  src: local('SUPR TALL'), url('../fonts/SUPR-Tall-Bold.woff2');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'UniversLTStd-LightCn';
+  font-weight: normal;
+  src: local('UniversLTStd-LightCn'), url('../fonts/UniversLTStd-LightCn.woff2');
+}
+
+@font-face {
+  font-family: 'UniversLTStd-LightUltraCn';
+  font-weight: normal;
+  src: local('UniversLTStd-LightUltraCn'),
+    url('../fonts/UniversLTStd-LightUltraCn.woff2');
+}
+
 :root {
   /* fonts */
-  --suprtall: 'suprtall';
-  --usiversltsd: 'usiversltsd';
-  --usiversltsdLight: 'usiversltsdLight';
+  --suprtall: 'SUPR-Tall';
+  --usiversltsd: 'UniversLTStd-LightCn';
+  --usiversltsdLight: 'UniversLTStd-LightUltraCn';
 
   /* colors */
   --white-clr: #fff;
