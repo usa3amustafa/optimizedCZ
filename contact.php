@@ -47,6 +47,36 @@ if (filter_var($_POST['email'] , FILTER_VALIDATE_EMAIL)) {
   
 
     <!-- css -->
+ <!-- fonts -->
+    <link
+      rel="preload"
+      href="./fonts/SUPR-Tall.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="./fonts/SUPR-Tall-Bold.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="./fonts/UniversLTStd-LightCn.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="./fonts/UniversLTStd-LightUltraCn.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+
 <!-- utilities -->
     <link rel="stylesheet" href="./css/utilities.css" />
 
