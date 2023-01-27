@@ -847,7 +847,7 @@ textarea:focus-visible {
     <nav>
       <div class="container nav">
         <a href="./">
-          <img src="./img/nav/logo-img.webp" alt="" class="logo" width="30" />
+          <img loading="lazy"src="./img/nav/logo-img.webp" alt="" class="logo" width="30" />
         </a>
 
         <ul class="nav-links">
@@ -863,13 +863,13 @@ textarea:focus-visible {
               href="https://www.instagram.com/cezararvelo"
               target="_blank"
               class="social-link"
-              ><img src="./img/nav/instagram-icon.webp" alt="" width="15"
+              ><img loading="lazy"src="./img/nav/instagram-icon.webp" alt="" width="15"
             /></a>
             <a
               href="https://www.linkedin.com/in/cezar-arvelo-839b9960?original_referer=https%3A%2F%2Fwww.google.com%2F"
               class="social-link"
               target="_blank"
-              ><img src="./img/nav/linkedin-icon.webp" alt="" width="15"
+              ><img loading="lazy"src="./img/nav/linkedin-icon.webp" alt="" width="15"
             /></a>
           </div>
           <div class="close-icon">
@@ -883,7 +883,7 @@ textarea:focus-visible {
         </ul>
 
         <div class="hamburger">
-          <img src="./img/more.webp" alt="" class="close-icon-img" width="24" />
+          <img loading="lazy"src="./img/more.webp" alt="" class="close-icon-img" width="24" />
         </div>
       </div>
     </nav>
@@ -994,7 +994,7 @@ textarea:focus-visible {
     <footer>
       <div class="footer container">
         <a href="./" class="footer-home-link">
-          <img src="./img/Footer_Logo.webp" class="footer-logo" alt="" />
+          <img loading="lazy"src="./img/Footer_Logo.webp" class="footer-logo" alt="" />
         </a>
 
         <p class="footer-text">
@@ -1005,13 +1005,13 @@ textarea:focus-visible {
             class="social-link-footer"
             href="https://www.instagram.com/cezararvelo"
             target="_blank"
-            ><img src="./img/nav/instagram-icon.webp" alt=""
+            ><img loading="lazy"src="./img/nav/instagram-icon.webp" alt=""
           /></a>
           <a
             class="social-link-footer"
             href="https://www.linkedin.com/in/cezar-arvelo-839b9960?original_referer=https%3A%2F%2Fwww.google.com%2F"
             target="_blank"
-            ><img src="./img/nav/linkedin-icon.webp" alt=""
+            ><img loading="lazy"src="./img/nav/linkedin-icon.webp" alt=""
           /></a>
         </div>
       </div>
