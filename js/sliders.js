@@ -1,5 +1,3 @@
-// intersection observer api
-
 const sliders = document.querySelectorAll('.slide-in')
 
 const appearOptions = {
