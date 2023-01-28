@@ -46,11 +46,275 @@
     <!-- utilities -->
     <link rel="stylesheet" href="./css/utilities.css" />
 
+    <style>
+      .work-header-title {
+        font-size: 6rem;
+        font-family: var(--suprtall);
+        font-weight: bold;
+        margin-bottom: 1rem;
+
+        padding-top: 7rem;
+      }
+
+      .work-header-desc {
+        font-family: var(--usiversltsd);
+        font-size: 1.25rem;
+        line-height: 1.6;
+        max-width: 100ch;
+      }
+
+      .work-project {
+        width: 90%;
+        margin: 0 auto;
+        position: relative;
+      }
+
+      .next-section {
+        max-width: 600px;
+      }
+
+      .projects-mobile {
+        display: none;
+      }
+
+      .project {
+        position: relative;
+      }
+
+      .project-link {
+        display: inline-block;
+        color: var(--white-clr);
+
+        transition: transform 0.15s ease-in-out, filter 0.15s ease-in-out;
+      }
+
+      .project-link:hover {
+        transform: translateY(-10px);
+        filter: brightness(120%);
+      }
+
+      .project-text {
+        position: absolute;
+        z-index: 5;
+        top: 15%;
+        left: 6%;
+      }
+
+      .project-title {
+        font-family: var(--suprtall);
+        font-size: 6rem;
+        text-transform: uppercase;
+
+        position: relative;
+      }
+
+      .project-desc {
+        font-family: var(--usiversltsdLight);
+        letter-spacing: 3px;
+        font-size: 2rem;
+        text-transform: uppercase;
+      }
+
+      .project-title::before {
+        font-family: var(--usiversltsdLight);
+        letter-spacing: 4px;
+        font-size: 1.25rem;
+
+        position: absolute;
+
+        top: -20px;
+        left: -18.5px;
+      }
+
+      .branding::before {
+        content: '01';
+      }
+
+      .illustration::before {
+        content: '02';
+      }
+
+      .apparel::before {
+        content: '03';
+      }
+
+      .shop::before {
+        content: '04';
+      }
+
+      /* work projects mobile */
+      @media (max-width: 800px) {
+        #projects {
+          padding: 0;
+        }
+
+        .work-projects {
+          display: none;
+        }
+
+        .projects-mobile {
+          display: block;
+        }
+
+        .project {
+          max-width: 450px;
+          margin: 0 auto;
+          margin-bottom: 2rem;
+          position: relative;
+        }
+
+        .project-text {
+          position: absolute;
+          z-index: 5;
+          top: 13%;
+          left: 8%;
+        }
+
+        .project-title {
+          font-family: var(--suprtall);
+          font-size: 5rem;
+          text-transform: uppercase;
+          color: var(--white-clr);
+          position: relative;
+        }
+
+        .project-desc {
+          font-family: var(--usiversltsdLight);
+          letter-spacing: 3px;
+          font-size: 1.35rem;
+          text-transform: uppercase;
+          color: var(--white-clr);
+        }
+
+        .project-title::before {
+          font-family: var(--usiversltsdLight);
+          letter-spacing: 4px;
+          font-size: 1.25rem;
+
+          position: absolute;
+
+          top: -28px;
+          left: -16px;
+        }
+
+        .one::before {
+          content: '01';
+        }
+
+        .two::before {
+          content: '02';
+        }
+
+        .three::before {
+          content: '03';
+        }
+
+        .four::before {
+          content: '04';
+        }
+
+        .five::before {
+          content: '05';
+        }
+
+        .six::before {
+          content: '06';
+        }
+
+        .seven::before {
+          content: '07';
+        }
+
+        .eight::before {
+          content: '08';
+        }
+
+        .nine::before {
+          content: '09';
+        }
+
+        #next-project-mobile .project-title {
+          font-size: 3rem;
+        }
+      }
+
+      @media (max-width: 500px) {
+        .project-title {
+          font-size: 4.5rem;
+        }
+
+        .project-desc {
+          font-size: 1.25rem;
+        }
+
+        #next-project-mobile .project-title {
+          font-size: 2rem;
+        }
+      }
+
+      @media (max-width: 450px) {
+        .project-title {
+          font-size: 4rem;
+        }
+
+        .project-desc {
+          font-size: 1.15rem;
+          letter-spacing: 2px;
+        }
+
+        .project-title::before {
+          font-size: 1rem;
+
+          top: -24px;
+          left: -14px;
+        }
+      }
+
+      @media (max-width: 400px) {
+        .project-title {
+          font-size: 3.25rem;
+        }
+
+        .project-desc {
+          font-size: 1rem;
+        }
+      }
+
+      @media (max-width: 340px) {
+        .project-title {
+          font-size: 3rem;
+        }
+        .project-desc {
+          font-size: 0.9rem;
+        }
+
+        #next-project-mobile .project-title {
+          font-size: 1.5rem;
+        }
+      }
+
+      .work-header-bg {
+        background: url('../img/illustration/ATL_Image1.webp');
+
+        background-size: cover;
+        background-position: center center;
+      }
+
+      @media (max-width: 800px) {
+        .work-header-bg {
+          background: url('../img/illustration/Illustration_Mobile_container.webp');
+
+          background-size: cover;
+          background-position: center center;
+        }
+      }
+    </style>
+
     <!-- work -->
-    <link rel="stylesheet" href="./css/work.css" />
+    <!-- <link rel="stylesheet" href="./css/work.css" /> -->
 
     <!-- illustration -->
-    <link rel="stylesheet" href="./css/illustration.css" />
+    <!-- <link rel="stylesheet" href="./css/illustration.css" /> -->
 
     <!-- javascript -->
 
