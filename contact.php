@@ -40,6 +40,15 @@ if (filter_var($_POST['email'] , FILTER_VALIDATE_EMAIL)) {
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+       <!-- preview -->
+    <meta property="og:title" content="CEZAR ARVELO" />
+    <meta property="og:description" content="Welcome to my Portfolio" />
+    <meta property="og:url" content="https://www.cezararvelo.com" />
+    <meta
+      property="og:image"
+      content="https://www.cezararvelo.com/img/CA_Thumbnail.webp"
+    />
+
     <title>C'Z Arvelo | Contact</title>
 
     <link rel="icon" type="image/x-icon" href="../img/favicon.webp" />
