@@ -40,7 +40,7 @@ if (filter_var($_POST['email'] , FILTER_VALIDATE_EMAIL)) {
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-       <!-- preview -->
+    <!-- preview -->
     <meta property="og:title" content="CEZAR ARVELO" />
     <meta property="og:description" content="Welcome to my Portfolio" />
     <meta property="og:url" content="https://www.cezararvelo.com" />
@@ -56,7 +56,7 @@ if (filter_var($_POST['email'] , FILTER_VALIDATE_EMAIL)) {
   
 
     <!-- css -->
- <!-- fonts -->
+    <!-- fonts -->
     <link
       rel="preload"
       href="./fonts/SUPR-Tall.woff2"
@@ -86,8 +86,11 @@ if (filter_var($_POST['email'] , FILTER_VALIDATE_EMAIL)) {
       crossorigin
     />
 
-<!-- utilities -->
+    <!-- utilities -->
     <link rel="stylesheet" href="./css/utilities.css" />
+
+    <!-- google recaptcha -->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
 <style>
   
@@ -412,6 +415,9 @@ textarea:focus-visible {
               ></textarea>
             </p>
 
+            <!-- google recaptcha -->
+            <div class="g-recaptcha" data-sitekey="6LckyWsnAAAAAKTYbViO7troULXajPhAF85gUXBf
+            "></div>
             <p class="form-el submit-el">
               <button type="submit" class="submit-btn">submit</button>
             </p>

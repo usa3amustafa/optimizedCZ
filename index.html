@@ -667,6 +667,10 @@
         filter: brightness(150%);
       }
 
+      .featured-project {
+        grid-column: 1/-1;
+      }
+
       /* 1280px */
       @media (max-width: 1280px) {
         .section-one-left-col {
@@ -692,6 +696,14 @@
           max-width: 600px;
           margin: 0 auto;
           grid-template-columns: repeat(3, 1fr);
+        }
+
+        .work-project {
+          display: none;
+        }
+
+        .projects-mobile {
+          display: block;
         }
       }
 
@@ -972,6 +984,41 @@
     <!-- projects -->
     <section id="work">
       <div class="container projects-section">
+        <!-- featured project desktop -->
+        <div class="featured-project">
+          <div class="work-project">
+            <a href="./transformersROTB.html">
+              <img
+                src="./img/trotb/TF_ROTB_Pre_Hover.webp"
+                alt=""
+                class="work-pre-hover-img"
+              />
+
+              <img
+                src="./img/trotb/TF_ROTB_Hover.webp"
+                alt=""
+                class="work-hover-img"
+              />
+            </a>
+          </div>
+
+          <!-- featured project mobile -->
+          <div class="projects-mobile">
+            <div class="project">
+              <a href="./transformersROTB.html" class="project-link">
+                <img
+                  src="./img/trotb/trotbm/TF_ROTB_Mobile_Container.png"
+                  alt=""
+                  loading="lazy"
+                />
+                <div class="project-text">
+                  <h2 class="project-title star">Transformers ROTB</h2>
+                  <p class="project-desc">featured project</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
         <div class="project project-one slide-in">
           <a href="./branding-packaging.html" class="project-link">
             <img loading="lazy" src="./img/Box_Containers.webp" alt="" />

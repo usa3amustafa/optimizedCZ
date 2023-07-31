@@ -11,16 +11,12 @@
     <meta property="og:url" content="https://www.cezararvelo.com" />
     <meta
       property="og:image"
-      content="https://www.cezararvelo.com/img/thumbnails/PowerRangers_Thumbail.webp"
+      content="https://www.cezararvelo.com/img/thumbnails/TFROTB_HYPER_Share_Thumbail.jpg"
     />
 
-    <title>C'Z Arvelo | Power Rangers</title>
+    <title>C'Z Arvelo | Transformers Return of the Beast</title>
 
     <link rel="icon" type="image/x-icon" href="./img/favicon.webp" />
-
-    <!-- css -->
-
-    <!-- fonts -->
 
     <!-- fonts -->
     <link
@@ -100,6 +96,7 @@
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         row-gap: 2rem;
+        column-gap: 2rem;
       }
 
       .grid-three-col {
@@ -313,7 +310,19 @@
         content: '08';
       }
 
+      .trotb {
+        background: url('./img/trotb/TF_ROTB_Section_Container.webp');
+
+        background-size: cover;
+        background-position: center center;
+      }
+
       @media (max-width: 800px) {
+        .trotb {
+          background: url('./img/trotb/trotbm/Transformers_ROTB_Thumbnail.jpg');
+          background-size: cover;
+          background-position: center center;
+        }
         .w-75 {
           width: 75%;
         }
@@ -450,174 +459,11 @@
         }
       }
 
-      .carousel {
-        position: relative;
-        overflow: hidden;
-        height: 95vh;
-      }
-
-      .carousel-el {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 95vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        transition: transform 0.7s ease-in-out;
-      }
-
-      .carousel-el > img {
-        width: 100%;
-        max-width: 1000px;
-      }
-
-      .carousel-control {
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-        cursor: pointer;
-      }
-
-      .carousel-left {
-        left: 0;
-      }
-
-      .carousel-right {
-        right: 0;
-      }
-
-      .carousel-left {
-        left: 0%;
-      }
-
-      .carousel-right {
-        right: 0%;
-      }
-
-      .carousel-el {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
-
-      @media (max-width: 960px) {
-        .carousel {
-          height: 75vh;
-        }
-
-        .carousel-el {
-          height: 75vh;
-        }
-      }
-
-      @media (max-width: 800px) {
-        .carousel-control > img {
-          width: 20px;
-        }
-
-        .carousel-el > img {
-          width: 95%;
-        }
-      }
-
-      @media (max-width: 450px) {
-        .carousel {
-          height: 50vh;
-        }
-
-        .carousel-el-2 {
-          height: 50vh;
-        }
-
-        .carousel-control > img {
-          width: 10px;
-        }
-      }
-
-      @media (max-width: 350px) {
-        .carousel {
-          height: 40vh;
-        }
-
-        .carousel-el {
-          height: 40vh;
-        }
-      }
-
-      .power-rangers {
-        background: url('../img/powerRangers/PowerRangers_Container.webp');
-
-        background-size: cover;
-        background-position: center center;
-      }
-
-      .center-img {
-        display: flex;
-        justify-content: center;
-      }
-
-      .pr-carousel-el {
-        height: 100%;
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center center;
-      }
-
-      .pr-carousel-el-1 {
-        background-image: url('../img/powerRangers/PowerRangers_Slider1.webp');
-      }
-
-      .pr-carousel-el-2 {
-        background-image: url('../img/powerRangers/PowerRangers_Slider2.webp');
-      }
-
-      .pr-carousel-el-3 {
-        background-image: url('../img/powerRangers/PowerRangers_Slider3.webp');
-      }
-
-      .pr-carousel-el-4 {
-        background-image: url('../img/powerRangers/PowerRangers_Slider4.webp');
-      }
-
-      .pr-carousel-el-5 {
-        background-image: url('../img/powerRangers/PowerRangers_Slider5.webp');
-      }
-
-      .pr-carousel-el-6 {
-        background-image: url('../img/powerRangers/PowerRangers_Slider6.webp');
-      }
-
-      .pr-carousel-el-7 {
-        background-image: url('../img/powerRangers/PowerRangers_Slider7.webp');
-      }
-
-      .pr-carousel-el-8 {
-        background-image: url('../img/powerRangers/PowerRangers_Slider8.webp');
-      }
-
-      @media (max-width: 800px) {
-        .power-rangers {
-          background: url('../img/powerRangers/Power_Rangers_Container_Main.webp');
-
-          background-size: cover;
-          background-position: center center;
-        }
+      .pt15 {
+        padding-top: 15rem;
+        margin-top: -10rem;
       }
     </style>
-
-    <!-- project page -->
-    <!-- <link rel="stylesheet" href="./css/projectpage.css" /> -->
-
-    <!-- carousel -->
-    <!-- <link rel="stylesheet" href="./css/carousel.css" /> -->
-
-    <!-- power rangers -->
-    <!-- <link rel="stylesheet" href="./css/power-rangers.css" /> -->
-
-    <!-- javascript -->
-
     <!-- navbar.js -->
     <script src="./js/navbar.js" defer></script>
 
@@ -627,11 +473,8 @@
     <!-- sliders js -->
     <script src="./js/sliders.js" defer></script>
 
-    <!-- sliders js -->
+    <!-- readmore js -->
     <script src="./js/readmore.js" defer></script>
-
-    <!-- carousel -->
-    <script src="./js/carousel.js" defer></script>
   </head>
   <body>
     <!-- nav -->
@@ -701,7 +544,7 @@
     </nav>
 
     <!-- header -->
-    <section class="work-header-bg power-rangers slide-in">
+    <section class="work-header-bg trotb slide-in">
       <div class="work-header container">
         <div class="scroll-down-img">
           <a href="#project-text">
@@ -719,272 +562,160 @@
     <!-- project text -->
     <section id="project-text">
       <div class="container project-text">
-        <h2 class="project-title slide-in">power rangers</h2>
+        <h2 class="project-title slide-in">Transformers rise of the beast</h2>
         <p class="desc-text work-header-desc slide-in">
-          I’ve worked on many projects for this iconic 90’s brand. My work has
-          been featured over the span of 5 years of the franchise blueprint. I
-          worked on exclusive Comic-Con products and packaging designs and also
-          created the 25th Anniversary logo.
+          As a lead member of the Global Action Brands Team at Hasbro, I worked
+          closely with the team developing full-scale style guides and assets
+          for Transformers Rise of the Beasts. I was in charge of creating
+          situational art pieces for the film that eventually made their way to
+          Paramount Pictures. My designs helped establish various themes for
+          many campaigns, products and most importantly the world premiere at
+          the King’s Theater in Brooklyn NYC.
         </p>
 
         <p class="desc-text-mobile work-header-desc slide-in">
-          I’ve worked on many projects for this iconic 90’s brand. My work has
+          As a lead member of the Global Action Brands Team at Hasbro, I worked
+          closely with the team developing full-scale
 
           <span class="read-more">... Read More</span>
-          <span class="read-more-text slide-in">
-            been featured over the span of 5 years of the franchise blueprint. I
-            worked on exclusive Comic-Con products and packaging designs and
-            also created the 25th Anniversary logo.
+          <span class="read-more-text">
+             style guides and assets
+          for Transformers Rise of the Beasts. I was in charge of creating
+          situational art pieces for the film that eventually made their way to
+          Paramount Pictures. My designs helped establish various themes for
+          many campaigns, products and most importantly the world premiere at
+          the King’s Theater in Brooklyn NYC.
           </span>
         </p>
       </div>
     </section>
-
     <!-- seperator img -->
     <img
-      src="./img/powerRangers/PowerRangers_Colorbar.webp"
+      loading="lazy"
+      src="./img/trotb/TF_ROTB_Colorbar.png"
       alt=""
       class="slide-in"
     />
 
-    <!-- product packaging section -->
-    <section class="mt-5 invert-colors slide-in">
-      <div class="container product-packaging">
-        <h2 class="project-title slide-in">special edition packaging</h2>
-        <img
-          src="./img/powerRangers/PowerRangers_Pack1.webp"
-          alt=""
-          class="mt1 slide-in"
-        />
-        <img
-          src="./img/powerRangers/PowerRangers_Pack2.webp"
-          alt=""
-          class="mt1 slide-in"
-        />
-        <img
-          src="./img/powerRangers/PowerRangers_Pack3.webp"
-          alt=""
-          class="mt1 slide-in"
-        />
-        <img
-          src="./img/powerRangers/PowerRangers_Pack5.webp"
-          alt=""
-          class="mt1 slide-in"
-        />
+    <!-- trotb -->
+    <section class="slide-in">
+      <div class="container">
+        <div class="flex-center">
+          <img
+            loading="lazy"
+            src="./img/trotb/TF_ROTB_Posters.webp"
+            alt=""
+            class="slide-in"
+          />
+        </div>
+        <div class="flex-center">
+          <img
+            loading="lazy"
+            src="./img/trotb/TF_ROTB_Daughter.webp"
+            alt=""
+            class="slide-in"
+          />
+        </div>
       </div>
     </section>
 
-    <!-- collectible coins section -->
+    <!-- two col section -->
     <section>
-      <div class="container brand-compaigns">
-        <h2 class="project-title mb2 slide-in">comic con collectible coins</h2>
-        <div class="center-img mb2">
-          <img
-            src="./img/powerRangers/PowerRangers_Coin.webp"
-            class="slide-in mw-800"
-            alt=""
-          />
+      <div class="container grid-two-col slide-in">
+        <h2 class="grid-el-title project-title">situational art</h2>
+        <div>
+          <img loading="lazy" src="./img/trotb/TF_ROTB_SIT_1.webp" alt="" />
         </div>
-        <img
-          src="./img/powerRangers/PowerRangers_Coin2.webp"
-          class="slide-in"
-          alt=""
-        />
-        <img
-          src="./img/powerRangers/PowerRangers_Coin3.webp"
-          class="slide-in"
-          alt=""
-        />
+        <div>
+          <img loading="lazy" src="./img/trotb/TF_ROTB_SIT_2.webp" alt="" />
+        </div>
+        <div>
+          <img loading="lazy" src="./img/trotb/TF_ROTB_SIT_3.webp" alt="" />
+        </div>
+        <div>
+          <img loading="lazy" src="./img/trotb/TF_ROTB_SIT_4.webp" alt="" />
+        </div>
+        <div>
+          <img loading="lazy" src="./img/trotb/TF_ROTB_SIT_5.webp" alt="" />
+        </div>
+        <div>
+          <img loading="lazy" src="./img/trotb/TF_ROTB_SIT_6.webp" alt="" />
+        </div>
+        <div>
+          <img loading="lazy" src="./img/trotb/TF_ROTB_SIT_7.webp" alt="" />
+        </div>
+        <div>
+          <img loading="lazy" src="./img/trotb/TF_ROTB_SIT_8.webp" alt="" />
+        </div>
+        <div>
+          <img loading="lazy" src="./img/trotb/TF_ROTB_SIT_9.webp" alt="" />
+        </div>
+        <div>
+          <img loading="lazy" src="./img/trotb/TF_ROTB_SIT_10.webp" alt="" />
+        </div>
+        <div>
+          <img loading="lazy" src="./img/trotb/TF_ROTB_SIT_11.webp" alt="" />
+        </div>
+        <div>
+          <img loading="lazy" src="./img/trotb/TF_ROTB_SIT_12.webp" alt="" />
+        </div>
+        <div>
+          <img loading="lazy" src="./img/trotb/TF_ROTB_SIT_13.webp" alt="" />
+        </div>
+        <div>
+          <img loading="lazy" src="./img/trotb/TF_ROTB_SIT_14.webp" alt="" />
+        </div>
+        <div>
+          <img loading="lazy" src="./img/trotb/TF_ROTB_SIT_15.webp" alt="" />
+        </div>
+        <div>
+          <img loading="lazy" src="./img/trotb/TF_ROTB_SIT_16.webp" alt="" />
+        </div>
+        <div>
+          <img loading="lazy" src="./img/trotb/TF_ROTB_SIT_17.webp" alt="" />
+        </div>
+        <div>
+          <img loading="lazy" src="./img/trotb/TF_ROTB_SIT_18.webp" alt="" />
+        </div>
+        <div>
+          <img loading="lazy" src="./img/trotb/TF_ROTB_SIT_19.webp" alt="" />
+        </div>
+        <div>
+          <img loading="lazy" src="./img/trotb/TF_ROTB_SIT_20.webp" alt="" />
+        </div>
       </div>
     </section>
 
-    <!-- carousel -->
-    <section class="carousel-main mb3">
-      <div class="container carousel slide-in">
-        <div class="carousel-el pr-carousel-el pr-carousel-el-1"></div>
-        <div class="carousel-el pr-carousel-el pr-carousel-el-2"></div>
-        <div class="carousel-el pr-carousel-el pr-carousel-el-3"></div>
-        <div class="carousel-el pr-carousel-el pr-carousel-el-4"></div>
-        <div class="carousel-el pr-carousel-el pr-carousel-el-5"></div>
-        <div class="carousel-el pr-carousel-el pr-carousel-el-6"></div>
-        <div class="carousel-el pr-carousel-el pr-carousel-el-7"></div>
-        <div class="carousel-el pr-carousel-el pr-carousel-el-8"></div>
-
-        <div class="carousel-controls">
-          <div class="carousel-control carousel-left">
-            <img
-              loading="lazy"
-              src="./img/charge/Charge_Arrow_Left.webp"
-              alt=""
-            />
-          </div>
-          <div class="carousel-control carousel-right">
-            <img
-              loading="lazy"
-              src="./img/charge/Charge_Arrow_Right.webp"
-              alt=""
-            />
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- product packaging section -->
-    <section class="mt-5 invert-colors slide-in">
-      <div class="container product-packaging">
-        <div class="center-img">
-          <img
-            src="./img/powerRangers/PowerRangers_Product1.webp"
-            alt=""
-            class="mt1 slide-in mw-800"
-          />
-        </div>
-        <div class="center-img">
-          <img
-            src="./img/powerRangers/PowerRangers_Product2.webp"
-            alt=""
-            class="mt1 slide-in"
-          />
-        </div>
+    <!-- trotb -->
+    <section class="slide-in">
+      <div class="container">
+        <h2 class="project-title mb2">
+          Transformers rise of the beast premiere
+        </h2>
       </div>
     </section>
 
     <img
-      src="./img/powerRangers/PowerRangers_Char1.webp"
+      loading="lazy"
+      src="./img/trotb/TF_ROTB_Premiere.webp"
       alt=""
-      class="slide-in mt-1"
-      width="100%"
+      class="slide-in"
     />
 
-    <img
-      src="./img/powerRangers/PowerRangers_Char2.webp"
-      alt=""
-      width="100%"
-      class="slide-in mt-1"
-    />
+    <!-- next section -->
+    <section>
+      <div class="container next-section">
+        <a href="./branding-packaging.html" class="next-section-link">
+          <img
+            loading="lazy"
+            src="./img/Box_Containers.webp"
+            alt=""
+            class="nex-section bg"
+          />
 
-    <img
-      src="./img/powerRangers/PowerRangers_Char3.webp"
-      alt=""
-      width="100%"
-      class="slide-in mt-1"
-    />
-
-    <!-- grid-e-el -->
-    <section class="pb3">
-      <div class="container grid-three-col slide-in appear">
-        <div class="grid-el slide-in appear">
-          <img
-            loading="lazy"
-            src="./img/powerRangers/PowerRangers_Illo1.webp"
-            alt=""
-          />
-        </div>
-        <div class="grid-el slide-in appear">
-          <img
-            loading="lazy"
-            src="./img/powerRangers/PowerRangers_Illo2.webp"
-            alt=""
-          />
-        </div>
-        <div class="grid-el slide-in appear">
-          <img
-            loading="lazy"
-            src="./img/powerRangers/PowerRangers_Illo3.webp"
-            alt=""
-          />
-        </div>
-      </div>
-    </section>
-
-    <!-- grid el-3 -->
-    <section class="invert-colors">
-      <div class="container grid-three-col slide-in appear">
-        <div class="grid-el slide-in appear">
-          <img
-            loading="lazy"
-            src="./img/powerRangers/PowerRangers_Red.webp"
-            alt=""
-          />
-        </div>
-        <div class="grid-el slide-in appear">
-          <img
-            loading="lazy"
-            src="./img/powerRangers/PowerRangers_Black.webp"
-            alt=""
-          />
-        </div>
-        <div class="grid-el slide-in appear">
-          <img
-            loading="lazy"
-            src="./img/powerRangers/PowerRangers_Green.webp"
-            alt=""
-          />
-        </div>
-        <div class="grid-el slide-in appear">
-          <img
-            loading="lazy"
-            src="./img/powerRangers/PowerRangers_Pink.webp"
-            alt=""
-          />
-        </div>
-        <div class="grid-el slide-in appear">
-          <img
-            loading="lazy"
-            src="./img/powerRangers/PowerRangers_Blue.webp"
-            alt=""
-          />
-        </div>
-        <div class="grid-el slide-in appear">
-          <img
-            loading="lazy"
-            src="./img/powerRangers/PowerRangers_Yellow.webp"
-            alt=""
-          />
-        </div>
-      </div>
-    </section>
-
-    <!-- next project desktop -->
-    <section id="next-project-desktop">
-      <div class="container next-project">
-        <a href="./ny-knicks.html" class="next-project-link">Next Project</a>
-
-        <div class="work-project slide-in">
-          <a href="./ny-knicks.html">
-            <img
-              src="./img/branding/NY_Knicks_Pre_HoverV2.webp"
-              alt=""
-              class="work-pre-hover-img"
-            />
-
-            <img
-              src="./img/branding/NY_Knicks_HoverV2.webp"
-              alt=""
-              class="work-hover-img"
-            />
-          </a>
-        </div>
-      </div>
-    </section>
-
-    <!-- next project mobile -->
-    <section id="next-project-mobile">
-      <div class="container next-project">
-        <a href="./ny-knicks.html" class="next-project-link">Next Project</a>
-        <div class="next-project slide-in">
-          <a href="./ny-knicks.html" class="next-project-link">
-            <img
-              loading="lazy"
-              src="./img/brandingMobile/NY_Knicks_Mobile.webp"
-              alt=""
-            />
-            <div class="next-project-text">
-              <h2 class="next-project-title three">ny knicks</h2>
-              <p class="next-project-desc">brand identity</p>
-            </div>
-          </a>
-        </div>
+          <h2 class="next-section-title two">branding / packaging</h2>
+          <h3 class="next-section-subtitle">clientele & agency work</h3>
+        </a>
       </div>
     </section>
 

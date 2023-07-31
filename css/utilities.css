@@ -249,6 +249,18 @@ footer {
   opacity: 0;
   transition: opacity 0.1s ease-in;
 }
+.work-project {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+.projects-mobile {
+  display: none;
+}
+
+.project {
+  position: relative;
+}
 .work-project:hover .work-pre-hover-img {
   opacity: 0;
 }
@@ -298,7 +310,7 @@ footer {
   align-items: center;
 }
 .next-section {
-  width: 100%;
+  width: 90%;
   max-width: 700px;
   position: relative;
   transition: transform 0.15s ease-in-out, filter 0.15s ease-in-out;
